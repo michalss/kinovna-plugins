@@ -4,7 +4,7 @@
     {
       "id": "filemanager",
       "name": "File manager",
-      "description": "Browse storage roots, create folders, rename, move and delete files. Changes only in roots marked as writable; moving a library file updates the title version.",
+      "description": "Browse storage roots, preview files (text editor, images, media tracks and languages), create folders, rename, move and delete files. Changes only in roots marked as writable; moving a library file updates the title version.",
       "author": "Kinovna",
       "homepage": "",
       "permissions": [
@@ -12,6 +12,25 @@
         "files.write"
       ],
       "versions": [
+        {
+          "version": "1.3.0",
+          "protocol": 1,
+          "notes": "",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/filemanager-v1.3.0/kinovna-plugin-filemanager_1.3.0_linux_x86_64.zip",
+              "sha256": "97ab18fb359129a4d24eab83c284c94cf21e712675112f1585fc77a8abd61335"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/filemanager-v1.3.0/kinovna-plugin-filemanager_1.3.0_windows_x86_64.zip",
+              "sha256": "9f26fa144224a4a50f3df4472536d743e74bde2f539d21fe0c5a9e2f2721f0e6"
+            }
+          ]
+        },
         {
           "version": "1.2.0",
           "protocol": 1,
@@ -83,6 +102,25 @@
         "network"
       ],
       "versions": [
+        {
+          "version": "1.0.1",
+          "protocol": 1,
+          "notes": "",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/jellyfin-v1.0.1/kinovna-plugin-jellyfin_1.0.1_linux_x86_64.zip",
+              "sha256": "548ea5a4665bbdbe77103480ef13fc61902f82ebaed60abb97bf9926c54a5642"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/jellyfin-v1.0.1/kinovna-plugin-jellyfin_1.0.1_windows_x86_64.zip",
+              "sha256": "8293b35774d2be99bb32704e584adbda9899d8bcf0ea6f41e66b25288b4ac3ca"
+            }
+          ]
+        },
         {
           "version": "1.0.0",
           "protocol": 1,
