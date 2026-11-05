@@ -103,6 +103,25 @@
       ],
       "versions": [
         {
+          "version": "1.0.2",
+          "protocol": 1,
+          "notes": "",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/jellyfin-v1.0.2/kinovna-plugin-jellyfin_1.0.2_linux_x86_64.zip",
+              "sha256": "0f782b7b9b758b5b25291da01834b0ac8ac80e482b0af6277d63ab5dbb24ac7d"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/jellyfin-v1.0.2/kinovna-plugin-jellyfin_1.0.2_windows_x86_64.zip",
+              "sha256": "7f62a971608e74d6966c6bb1c8b4081b448eb6ede8037d47265dc020c78c7dbd"
+            }
+          ]
+        },
+        {
           "version": "1.0.1",
           "protocol": 1,
           "notes": "",
