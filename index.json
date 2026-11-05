@@ -1,0 +1,142 @@
+{
+  "name": "Kinovna plugins",
+  "plugins": [
+    {
+      "id": "filemanager",
+      "name": "File manager",
+      "description": "Browse storage roots, create folders, rename, move and delete files. Changes only in roots marked as writable; moving a library file updates the title version.",
+      "author": "Kinovna",
+      "homepage": "",
+      "permissions": [
+        "files.read",
+        "files.write"
+      ],
+      "versions": [
+        {
+          "version": "1.2.0",
+          "protocol": 1,
+          "notes": "",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/filemanager-v1.2.0/kinovna-plugin-filemanager_1.2.0_linux_x86_64.zip",
+              "sha256": "ba7a94268dc855762735181b6d18dde34021894d1e3f3bc573f085c3d25f01aa"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/filemanager-v1.2.0/kinovna-plugin-filemanager_1.2.0_windows_x86_64.zip",
+              "sha256": "14b373ca55f10b16aa7da40f59a55eae72b570b4cfe82632e16b52d344097a30"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "histra",
+      "name": "Histra.net",
+      "description": "Track what you watch on histra.net: playback progress, watched titles, watchlist and lists in both directions.",
+      "author": "Kinovna",
+      "homepage": "https://histra.net",
+      "permissions": [
+        "library.read",
+        "library.write",
+        "lists",
+        "network"
+      ],
+      "versions": [
+        {
+          "version": "1.5.0",
+          "protocol": 1,
+          "notes": "",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/histra-v1.5.0/kinovna-plugin-histra_1.5.0_linux_x86_64.zip",
+              "sha256": "0fcc7e4b71e17cd83ce9ba0603e46f4a842c337b1a1565658f9661dc68ee1b3a"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/histra-v1.5.0/kinovna-plugin-histra_1.5.0_windows_x86_64.zip",
+              "sha256": "269cbdb55202a2549983ce1513ea608c889d5a2fe659dd6e952d1de20502eaf6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jellyfin",
+      "name": "Jellyfin",
+      "description": "One-way sync from a Jellyfin server: movies and episodes from shared storage are added to the library, and each user's watched titles, playback positions and favorites follow.",
+      "author": "Kinovna",
+      "homepage": "https://jellyfin.org",
+      "permissions": [
+        "library.read",
+        "library.write",
+        "library.import",
+        "lists",
+        "users.read",
+        "files.read",
+        "network"
+      ],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "protocol": 1,
+          "notes": "",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/jellyfin-v1.0.0/kinovna-plugin-jellyfin_1.0.0_linux_x86_64.zip",
+              "sha256": "624e7e73580fc84e0d510729b88ba3f43edf744cc42b112e9963239d4413ab57"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/jellyfin-v1.0.0/kinovna-plugin-jellyfin_1.0.0_windows_x86_64.zip",
+              "sha256": "4637a926b912e5f9180913c9d98ef7e17d5e7ca128b331e0e4f468db1415ac90"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trakt",
+      "name": "Trakt",
+      "description": "Track what you watch on Trakt: scrobbling, watched titles, playback positions, watchlist, favorites and lists (direction per area), and Trakt IDs for your library.",
+      "author": "Kinovna",
+      "homepage": "https://trakt.tv",
+      "permissions": [
+        "library.read",
+        "library.write",
+        "lists",
+        "network"
+      ],
+      "versions": [
+        {
+          "version": "1.1.0",
+          "protocol": 1,
+          "notes": "",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/trakt-v1.1.0/kinovna-plugin-trakt_1.1.0_linux_x86_64.zip",
+              "sha256": "bba097d58a479e8906d6f91d4203b2121a5acefa17549972ca63b083ac9d4fb5"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/trakt-v1.1.0/kinovna-plugin-trakt_1.1.0_windows_x86_64.zip",
+              "sha256": "0232258fbcb73860bbf6641332e63f54fa49cfc79dfd125bb5f93af75e258e03"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
