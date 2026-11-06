@@ -2,9 +2,42 @@
   "name": "Kinovna plugins",
   "plugins": [
     {
+      "id": "csfd",
+      "name": "ČSFD",
+      "description": "Adds ČSFD IDs to movies and series, so every title links to its page on csfd.cz. IDs come from Wikidata (matched by IMDb and TMDB IDs).",
+      "author": "Kinovna",
+      "homepage": "https://www.csfd.cz",
+      "permissions": [
+        "library.read",
+        "library.write",
+        "network"
+      ],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "protocol": 1,
+          "notes": "",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/csfd-v1.0.0/kinovna-plugin-csfd_1.0.0_linux_x86_64.zip",
+              "sha256": "e3f23dde7a091397ada7785028cfa52dea10e6223f38fa3192b00831157aa6aa"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/csfd-v1.0.0/kinovna-plugin-csfd_1.0.0_windows_x86_64.zip",
+              "sha256": "e3e16515c6f4b515842f0b97074253f19e40794e9c42b7b34781aa068b6b88ad"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "filemanager",
       "name": "File manager",
-      "description": "Browse storage roots, preview files (text editor, images, media tracks and languages), create folders, rename, move and delete files. Changes only in roots marked as writable; moving a library file updates the title version.",
+      "description": "Browse storage roots, preview files (text editor, images, media tracks and languages), create folders, rename, move and delete files (also many at once), upload files and folders. Changes only in roots marked as writable; moving a library file updates the title version.",
       "author": "Kinovna",
       "homepage": "",
       "permissions": [
@@ -12,6 +45,25 @@
         "files.write"
       ],
       "versions": [
+        {
+          "version": "1.4.0",
+          "protocol": 1,
+          "notes": "",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/filemanager-v1.4.0/kinovna-plugin-filemanager_1.4.0_linux_x86_64.zip",
+              "sha256": "cf33c925b4b73c24329e9f58326f30b57f4b37a870721c062af7ed493a388c65"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/filemanager-v1.4.0/kinovna-plugin-filemanager_1.4.0_windows_x86_64.zip",
+              "sha256": "8fa420af1faea7fe9be4e89dcf3818363fbfd4e24f9d1391498d4edfeb50b8bf"
+            }
+          ]
+        },
         {
           "version": "1.3.0",
           "protocol": 1,
@@ -55,7 +107,7 @@
     {
       "id": "histra",
       "name": "Histra.net",
-      "description": "Track what you watch on histra.net: playback progress, watched titles, watchlist and lists in both directions.",
+      "description": "Track what you watch on histra.net: playback progress, watched titles, watchlist and lists in both directions. Also adds Histra IDs to your library.",
       "author": "Kinovna",
       "homepage": "https://histra.net",
       "permissions": [
@@ -65,6 +117,25 @@
         "network"
       ],
       "versions": [
+        {
+          "version": "1.6.0",
+          "protocol": 1,
+          "notes": "",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/histra-v1.6.0/kinovna-plugin-histra_1.6.0_linux_x86_64.zip",
+              "sha256": "462c3d9a20465609de6c2406ef5e34369aaffd4c90473b54be2e6cc98c7a8ea8"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/histra-v1.6.0/kinovna-plugin-histra_1.6.0_windows_x86_64.zip",
+              "sha256": "a3b97b90e8bb7d1205a2d9d793b396a0060bd3a81a23a703ec11352c2a9fcd2e"
+            }
+          ]
+        },
         {
           "version": "1.5.0",
           "protocol": 1,
@@ -102,6 +173,25 @@
         "network"
       ],
       "versions": [
+        {
+          "version": "1.1.0",
+          "protocol": 1,
+          "notes": "",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/jellyfin-v1.1.0/kinovna-plugin-jellyfin_1.1.0_linux_x86_64.zip",
+              "sha256": "d9fc19df4e7d41689a493b136ffe6f33fe662ed049ffdfae6fbab2fbb938a78c"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/jellyfin-v1.1.0/kinovna-plugin-jellyfin_1.1.0_windows_x86_64.zip",
+              "sha256": "d512e5d69b0b72375ef997047c6b71a4c94ba7da5fd768fc46834db02272d9ba"
+            }
+          ]
+        },
         {
           "version": "1.0.2",
           "protocol": 1,
