@@ -194,6 +194,37 @@
           ]
         }
       ]
+    },
+    {
+      "id": "webshare",
+      "name": "Webshare",
+      "description": "Add files from Webshare.cz to the library and play them with each viewer's own Webshare account. The direct link is created when playback starts and renewed when it expires.",
+      "author": "Kinovna",
+      "homepage": "https://webshare.cz",
+      "permissions": [
+        "network"
+      ],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "protocol": 1,
+          "notes": "",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/webshare-v1.0.0/kinovna-plugin-webshare_1.0.0_linux_x86_64.zip",
+              "sha256": "3aa4046c90f32b7813a4d0112197ae00fc7eb1b1b236ad6e1ba6706469807ac1"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/webshare-v1.0.0/kinovna-plugin-webshare_1.0.0_windows_x86_64.zip",
+              "sha256": "e4747e4e2c4b43fa8b2df5a10b1ad15e137434a68dbcaf08a0fcfbb96a58f6ec"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
