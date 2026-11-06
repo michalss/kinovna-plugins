@@ -46,6 +46,25 @@
       ],
       "versions": [
         {
+          "version": "1.5.0",
+          "protocol": 1,
+          "notes": "",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/filemanager-v1.5.0/kinovna-plugin-filemanager_1.5.0_linux_x86_64.zip",
+              "sha256": "4de200943786938876b6a5f01663177c48f86c995123e822bfd4c550244ba1d9"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/filemanager-v1.5.0/kinovna-plugin-filemanager_1.5.0_windows_x86_64.zip",
+              "sha256": "ca2bc181f529efcab3fac2f849ea6bfff8d7519283b51259d1125515621604c6"
+            }
+          ]
+        },
+        {
           "version": "1.4.0",
           "protocol": 1,
           "notes": "",
@@ -158,6 +177,37 @@
       ]
     },
     {
+      "id": "imdb",
+      "name": "IMDb",
+      "description": "IMDb as a metadata source for movies and series: search and match titles that TMDB does not know, with Czech titles, ratings, seasons and episodes from the official IMDb datasets (non-commercial use). With a free OMDb API key it also adds plots and posters.",
+      "author": "Kinovna",
+      "homepage": "https://www.imdb.com",
+      "permissions": [
+        "network"
+      ],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "protocol": 1,
+          "notes": "",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/imdb-v1.0.0/kinovna-plugin-imdb_1.0.0_linux_x86_64.zip",
+              "sha256": "1eb294b7b5b258d1339d3d35d65c5365161c2f10a5159354b65667df6cff0e42"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/imdb-v1.0.0/kinovna-plugin-imdb_1.0.0_windows_x86_64.zip",
+              "sha256": "666194c7e3ba59cf8a7ffa9f1a7ea01dcc665bdc3c3df88cebaabd93afdf570c"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "jellyfin",
       "name": "Jellyfin",
       "description": "One-way 1:1 copy of a Jellyfin server: movies and series exactly as Jellyfin has them (seasons, episode numbers, names, overviews, images, audio and subtitle tracks), and each user's watched titles, playback positions and favorites.",
@@ -173,6 +223,25 @@
         "network"
       ],
       "versions": [
+        {
+          "version": "1.2.1",
+          "protocol": 1,
+          "notes": "",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/jellyfin-v1.2.1/kinovna-plugin-jellyfin_1.2.1_linux_x86_64.zip",
+              "sha256": "d59a04c4c05b403f657e1ca7e7e69015375c92be9a2efd8ed810a42b9d5107ea"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/jellyfin-v1.2.1/kinovna-plugin-jellyfin_1.2.1_windows_x86_64.zip",
+              "sha256": "91542a5aa56f82a3b439991693ef22130ce74a63b0d62be4a360735cb5816d32"
+            }
+          ]
+        },
         {
           "version": "1.2.0",
           "protocol": 1,
