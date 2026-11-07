@@ -4,7 +4,7 @@
     {
       "id": "csfd",
       "name": "ČSFD",
-      "description": "Adds ČSFD IDs to movies and series, so every title links to its page on csfd.cz. IDs come from Wikidata (matched by IMDb and TMDB IDs).",
+      "description": "ČSFD for movies and series: every title links to its page on csfd.cz (IDs from Wikidata), and ČSFD is a metadata source for titles that TMDB and IMDb do not know: search, found files and adding a title, with Czech plots, posters, ratings, cast and episodes.",
       "author": "Kinovna",
       "homepage": "https://www.csfd.cz",
       "permissions": [
@@ -13,6 +13,25 @@
         "network"
       ],
       "versions": [
+        {
+          "version": "1.1.0",
+          "protocol": 1,
+          "notes": "",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/csfd-v1.1.0/kinovna-plugin-csfd_1.1.0_linux_x86_64.zip",
+              "sha256": "abea1977a15dffded299120b3513ddaa33cb3285205ddd4d623bb771994c1faf"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/csfd-v1.1.0/kinovna-plugin-csfd_1.1.0_windows_x86_64.zip",
+              "sha256": "3fec14fe656cae93a5cdf222f36bfe9e2e02b16fbf00c315fcd10e7b56cff5bb"
+            }
+          ]
+        },
         {
           "version": "1.0.0",
           "protocol": 1,
@@ -179,13 +198,32 @@
     {
       "id": "imdb",
       "name": "IMDb",
-      "description": "IMDb as a metadata source for movies and series: search and match titles that TMDB does not know, with Czech titles, ratings, seasons and episodes from the official IMDb datasets (non-commercial use). With a free OMDb API key it also adds plots and posters.",
+      "description": "IMDb as a metadata source for movies and series: search and match titles that TMDB does not know, with Czech, Slovak and English titles, ratings, seasons and episodes from the official IMDb datasets (non-commercial use). With a free OMDb API key it also adds plots, posters and age ratings.",
       "author": "Kinovna",
       "homepage": "https://www.imdb.com",
       "permissions": [
         "network"
       ],
       "versions": [
+        {
+          "version": "1.1.0",
+          "protocol": 1,
+          "notes": "",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/imdb-v1.1.0/kinovna-plugin-imdb_1.1.0_linux_x86_64.zip",
+              "sha256": "ca322d644400e794e490b6d8aff43d5053e0077de921d669c6c4d5d89e49b0ec"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/imdb-v1.1.0/kinovna-plugin-imdb_1.1.0_windows_x86_64.zip",
+              "sha256": "0053a4cde1eb75d3ba3c1766d38a94523e6b2b07078422972c22b429ed5e832c"
+            }
+          ]
+        },
         {
           "version": "1.0.0",
           "protocol": 1,
@@ -223,6 +261,25 @@
         "network"
       ],
       "versions": [
+        {
+          "version": "1.2.2",
+          "protocol": 1,
+          "notes": "",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/jellyfin-v1.2.2/kinovna-plugin-jellyfin_1.2.2_linux_x86_64.zip",
+              "sha256": "82505def34a1b2bcff520e0d6080fc04406df36acc2e495b6be82a3a087bbd80"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/jellyfin-v1.2.2/kinovna-plugin-jellyfin_1.2.2_windows_x86_64.zip",
+              "sha256": "e62fd2ceee637e2b701a6216da02ae734f76e789474ac07ebacbb4daae1dd4d6"
+            }
+          ]
+        },
         {
           "version": "1.2.1",
           "protocol": 1,
@@ -352,6 +409,25 @@
         "network"
       ],
       "versions": [
+        {
+          "version": "1.2.0",
+          "protocol": 1,
+          "notes": "",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/trakt-v1.2.0/kinovna-plugin-trakt_1.2.0_linux_x86_64.zip",
+              "sha256": "b94ad5e48544e6032936d1e7278427110ae30fc082a64ffe063248b5a08ccdda"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/trakt-v1.2.0/kinovna-plugin-trakt_1.2.0_windows_x86_64.zip",
+              "sha256": "b1eb0e2b75a8329b89b841ec5a948e6395bb12fdc3575c03f37efb701206ac1b"
+            }
+          ]
+        },
         {
           "version": "1.1.0",
           "protocol": 1,
