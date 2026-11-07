@@ -156,6 +156,25 @@
       ],
       "versions": [
         {
+          "version": "1.7.1",
+          "protocol": 1,
+          "notes": "",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/histra-v1.7.1/kinovna-plugin-histra_1.7.1_linux_x86_64.zip",
+              "sha256": "6dfc6cc9789b9bfe52d185902bfcfc4c44b0cfc6631a4257417695a00df1eb8d"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/histra-v1.7.1/kinovna-plugin-histra_1.7.1_windows_x86_64.zip",
+              "sha256": "0fc7e62f76df520c811c51e706a428b65efb959b723528197ee90916e0c8043a"
+            }
+          ]
+        },
+        {
           "version": "1.7.0",
           "protocol": 1,
           "notes": "",
@@ -280,6 +299,25 @@
         "network"
       ],
       "versions": [
+        {
+          "version": "1.2.4",
+          "protocol": 1,
+          "notes": "",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/jellyfin-v1.2.4/kinovna-plugin-jellyfin_1.2.4_linux_x86_64.zip",
+              "sha256": "66bbb6edb814a2e99aa5357ae693f9c8468eb7f23143741bee10d37340a391f9"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/jellyfin-v1.2.4/kinovna-plugin-jellyfin_1.2.4_windows_x86_64.zip",
+              "sha256": "c81d8bc346676b9ac56a1b42aa186da447f37618b4e957c12b81af9cce4df727"
+            }
+          ]
+        },
         {
           "version": "1.2.3",
           "protocol": 1,
