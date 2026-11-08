@@ -156,6 +156,25 @@
       ],
       "versions": [
         {
+          "version": "1.8.0",
+          "protocol": 1,
+          "notes": "Titul odebraný z continue watching na Histře zmizí i z Pokračovat v Kinovně",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/histra-v1.8.0/kinovna-plugin-histra_1.8.0_linux_x86_64.zip",
+              "sha256": "ae194b655d00287c6158225d78988ad072c0641b0dd5bfd024b349ab3dc2be38"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/histra-v1.8.0/kinovna-plugin-histra_1.8.0_windows_x86_64.zip",
+              "sha256": "44320b8735c330ffbc005548fbe1f9825ad356fe2cd0440325fb5d6ec4d94fcd"
+            }
+          ]
+        },
+        {
           "version": "1.7.1",
           "protocol": 1,
           "notes": "",
