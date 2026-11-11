@@ -568,6 +568,39 @@
       ]
     },
     {
+      "id": "requests",
+      "name": "Requests",
+      "description": "Users request movies and series that are not in the library (searched on TMDB), join others' requests and discuss them in comments. Operators take requests, then close them as done or rejected.",
+      "author": "Kinovna",
+      "homepage": "",
+      "permissions": [
+        "library.read",
+        "users.read",
+        "network"
+      ],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "protocol": 1,
+          "notes": "",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/requests-v1.0.0/kinovna-plugin-requests_1.0.0_linux_x86_64.zip",
+              "sha256": "38211c92491734e08e777d9856481955c26002cbf7353d86a8b216b22ca67bdb"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/requests-v1.0.0/kinovna-plugin-requests_1.0.0_windows_x86_64.zip",
+              "sha256": "5b3ba3e78b805e70621dbec15022e9914627e4dfdd24439602e3f9e2162a0ed2"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "trakt",
       "name": "Trakt",
       "description": "Track what you watch on Trakt: scrobbling, watched titles, playback positions, watchlist, favorites and lists (direction per area), and Trakt IDs for your library.",
