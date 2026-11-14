@@ -85,6 +85,25 @@
       ],
       "versions": [
         {
+          "version": "1.9.0",
+          "protocol": 1,
+          "notes": "Úpravy médií 1.0.0 (stopy MKV, MKVToolNix na vyžádání); Soubory 1.9.0: Upravit stopy",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/filemanager-v1.9.0/kinovna-plugin-filemanager_1.9.0_linux_x86_64.zip",
+              "sha256": "9ab1dc3579ed9745467f98c4f1d955eacfd033506c725226ce17b8e1cc5640c2"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/filemanager-v1.9.0/kinovna-plugin-filemanager_1.9.0_windows_x86_64.zip",
+              "sha256": "6e99d47a546bb2afcb65df0f6e3593ecd67f616b2d713e431631b97b130c626d"
+            }
+          ]
+        },
+        {
           "version": "1.8.0",
           "protocol": 1,
           "notes": "Dialog přesunu: nová složka a hledání",
@@ -658,6 +677,39 @@
               "arch": "x86_64",
               "url": "https://github.com/michalss/kinovna-plugins/releases/download/jellyfin-v1.0.0/kinovna-plugin-jellyfin_1.0.0_windows_x86_64.zip",
               "sha256": "4637a926b912e5f9180913c9d98ef7e17d5e7ca128b331e0e4f468db1415ac90"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mediaedit",
+      "name": "Media editor",
+      "description": "Edit tracks of MKV files: rename tracks, change languages and default/forced flags (instantly, without rewriting the file), add subtitles and audio, remove and reorder tracks, extract subtitles. Uses MKVToolNix, which the plugin can download and install by itself.",
+      "author": "Kinovna",
+      "homepage": "https://mkvtoolnix.download",
+      "permissions": [
+        "files.read",
+        "files.write",
+        "network"
+      ],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "protocol": 1,
+          "notes": "Úpravy médií 1.0.0 (stopy MKV, MKVToolNix na vyžádání); Soubory 1.9.0: Upravit stopy",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/mediaedit-v1.0.0/kinovna-plugin-mediaedit_1.0.0_linux_x86_64.zip",
+              "sha256": "c78ccd95590de2307e227014191b6b2b0b9647bd221e354413b6837d6e50b60c"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/mediaedit-v1.0.0/kinovna-plugin-mediaedit_1.0.0_windows_x86_64.zip",
+              "sha256": "20c1c36b75d26651957552f20abd629779f6f1a78af8d9a778f38b1ea601381b"
             }
           ]
         }
