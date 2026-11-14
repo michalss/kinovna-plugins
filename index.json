@@ -75,14 +75,34 @@
     {
       "id": "filemanager",
       "name": "File manager",
-      "description": "Browse storage roots, preview files (text editor, images, media tracks and languages), create folders, rename, move and delete files (also many at once), upload files and folders. Changes only in roots marked as writable; moving a library file updates the title version.",
+      "description": "Browse storage roots, preview files (text editor, images, media tracks and languages), create folders, rename, move and delete files (also many at once), upload files and folders, rename library files to release-style names from metadata. Changes only in roots marked as writable; moving a library file updates the title version.",
       "author": "Kinovna",
       "homepage": "",
       "permissions": [
         "files.read",
-        "files.write"
+        "files.write",
+        "library.read"
       ],
       "versions": [
+        {
+          "version": "1.6.0",
+          "protocol": 1,
+          "notes": "Přejmenování podle metadat (názvy ve stylu releasů)",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/filemanager-v1.6.0/kinovna-plugin-filemanager_1.6.0_linux_x86_64.zip",
+              "sha256": "234a95a55a40b47300b947906cfd2b83d9fee53bfd791b29f0b90f492cc9f633"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/filemanager-v1.6.0/kinovna-plugin-filemanager_1.6.0_windows_x86_64.zip",
+              "sha256": "d04074de91110dd31c65779d1b299cc3928910fab8672f11d2476706c3e58e97"
+            }
+          ]
+        },
         {
           "version": "1.5.0",
           "protocol": 1,
