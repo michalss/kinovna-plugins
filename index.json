@@ -85,6 +85,25 @@
       ],
       "versions": [
         {
+          "version": "1.8.0",
+          "protocol": 1,
+          "notes": "Dialog přesunu: nová složka a hledání",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/filemanager-v1.8.0/kinovna-plugin-filemanager_1.8.0_linux_x86_64.zip",
+              "sha256": "e24a2f00d5dff81f9f2fad4a2373f4166024ba7563acf46818930ae31349c728"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/filemanager-v1.8.0/kinovna-plugin-filemanager_1.8.0_windows_x86_64.zip",
+              "sha256": "44d89e410b31d565e7f51d6ecc4a38e35297902b0de070d5d3b176daf5217a12"
+            }
+          ]
+        },
+        {
           "version": "1.7.1",
           "protocol": 1,
           "notes": "Oprava: dialog přejmenování podle metadat se zacyklil",
