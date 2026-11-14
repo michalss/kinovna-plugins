@@ -85,6 +85,25 @@
       ],
       "versions": [
         {
+          "version": "1.7.1",
+          "protocol": 1,
+          "notes": "Oprava: dialog přejmenování podle metadat se zacyklil",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/filemanager-v1.7.1/kinovna-plugin-filemanager_1.7.1_linux_x86_64.zip",
+              "sha256": "ac5356a756991b85d868d311ad1d508a50e327a3087144d4c93c09002d2f600a"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/filemanager-v1.7.1/kinovna-plugin-filemanager_1.7.1_windows_x86_64.zip",
+              "sha256": "00ffaaf1a621245b12bdb28312d880835b338f138d9b74e9a9e0c56044bb7dd5"
+            }
+          ]
+        },
+        {
           "version": "1.7.0",
           "protocol": 1,
           "notes": "Přejmenování podle metadat i u videí mimo knihovnu (podle názvu souboru a složky)",
