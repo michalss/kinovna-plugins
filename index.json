@@ -822,6 +822,40 @@
       ]
     },
     {
+      "id": "titulky",
+      "name": "Titulky.com",
+      "description": "Czech and Slovak subtitles from titulky.com: offered in the subtitle search of each title version (episodes matched exactly by the series, release matches first) and on the Titulky.com page with the latest subtitles, search, translations in progress and saving next to videos.",
+      "author": "Kinovna",
+      "homepage": "https://www.titulky.com",
+      "permissions": [
+        "network",
+        "library.read",
+        "files.read",
+        "files.write"
+      ],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "protocol": 1,
+          "notes": "Titulky.com 1.0.0: české a slovenské titulky v hledání titulků u verze titulu (díly seriálu přesně podle IMDb, shody s releasem první), stránka s novinkami, hledáním, titulky k videu, rozpracovanými překlady a uložením k videu.",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/titulky-v1.0.0/kinovna-plugin-titulky_1.0.0_linux_x86_64.zip",
+              "sha256": "a1f82d9f50e244a4cb01765153eb209aa43e82532831200dadc6be0701e18851"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/titulky-v1.0.0/kinovna-plugin-titulky_1.0.0_windows_x86_64.zip",
+              "sha256": "950b53ac139fd82e9df9f5c9479d69b9f7c769a0151f6ed2df58a780f5985d5e"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "trakt",
       "name": "Trakt",
       "description": "Track what you watch on Trakt: scrobbling, watched titles, playback positions, watchlist, favorites and lists (direction per area), and Trakt IDs for your library.",
