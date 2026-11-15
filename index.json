@@ -735,6 +735,40 @@
       ]
     },
     {
+      "id": "reports",
+      "name": "Reports",
+      "description": "Users report problems with movies, series and episodes in the library (picture, sound, subtitles, playback, stream, metadata) right from the title page, together with the file (version) and playback position they were streaming; others can confirm them and discuss them in comments. Operators take reports, then close them as resolved or dismissed.",
+      "author": "Kinovna",
+      "homepage": "",
+      "permissions": [
+        "library.read",
+        "users.read",
+        "notifications",
+        "files.read"
+      ],
+      "versions": [
+        {
+          "version": "1.1.0",
+          "protocol": 1,
+          "notes": "Nový plugin Hlášení: nahlášení problému u titulu (obraz, zvuk, titulky, nejde přehrát, stream, metadata) s kontextem přehrávané verze a pozice; stránka Hlášení pro řešitele.",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/reports-v1.1.0/kinovna-plugin-reports_1.1.0_linux_x86_64.zip",
+              "sha256": "1ac5baef7bf36c51a8dafa0ea6cc94639c73ee82f5b8b916bb94f24bfeae7266"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/reports-v1.1.0/kinovna-plugin-reports_1.1.0_windows_x86_64.zip",
+              "sha256": "9d8ebdbed972acca9393afbcf1d2a5a87a2add760df90382b042df8f6893bea2"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "requests",
       "name": "Requests",
       "description": "Users request movies and series that are not in the library (searched on TMDB), join others' requests and discuss them in comments. Operators take requests, then close them as done or rejected.",
