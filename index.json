@@ -835,6 +835,25 @@
       ],
       "versions": [
         {
+          "version": "1.0.1",
+          "protocol": 1,
+          "notes": "Titulky.com 1.0.1: výpis se čte podle záhlaví tabulky (přihlášený účet má jiné sloupce), log hledání.",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/titulky-v1.0.1/kinovna-plugin-titulky_1.0.1_linux_x86_64.zip",
+              "sha256": "b5a0d92f7b2c2e69eb76f0984b5a49d9de776bbe8ef5787a4555abcc206fab51"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/titulky-v1.0.1/kinovna-plugin-titulky_1.0.1_windows_x86_64.zip",
+              "sha256": "df2f16d6a89cfcded1822d2ad377c6e3969859bac694cefae35eec6f7714d1b4"
+            }
+          ]
+        },
+        {
           "version": "1.0.0",
           "protocol": 1,
           "notes": "Titulky.com 1.0.0: české a slovenské titulky v hledání titulků u verze titulu (díly seriálu přesně podle IMDb, shody s releasem první), stránka s novinkami, hledáním, titulky k videu, rozpracovanými překlady a uložením k videu.",
