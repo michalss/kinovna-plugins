@@ -290,6 +290,25 @@
       ],
       "versions": [
         {
+          "version": "1.8.5",
+          "protocol": 1,
+          "notes": "",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/histra-v1.8.5/kinovna-plugin-histra_1.8.5_linux_x86_64.zip",
+              "sha256": "edd82944c1a9ac19c0461722cb61a1c4ca0d9b76cb4e7a4261f93be95aa7d9fd"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/histra-v1.8.5/kinovna-plugin-histra_1.8.5_windows_x86_64.zip",
+              "sha256": "f561caf4673c5cb70a4ae6455031b52a9d3d203cd3e218488822f4785ee38428"
+            }
+          ]
+        },
+        {
           "version": "1.8.4",
           "protocol": 1,
           "notes": "",
