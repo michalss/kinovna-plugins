@@ -75,7 +75,7 @@
     {
       "id": "filemanager",
       "name": "File manager",
-      "description": "Browse storage roots, preview files (text editor, images, media tracks and languages), create folders, rename, move and delete files (also many at once), upload files and folders, rename video files to release-style names from metadata (library title, or the file name outside the library). Changes only in roots marked as writable; moving a library file updates the title version.",
+      "description": "Browse storage roots, preview files (text editor, images, media tracks and languages), create folders, rename, move, copy and delete files (also many at once), upload files and folders, rename video files to release-style names from metadata (library title, or the file name outside the library). Changes only in roots marked as writable; moving a library file updates the title version.",
       "author": "Kinovna",
       "homepage": "",
       "permissions": [
@@ -84,6 +84,25 @@
         "library.read"
       ],
       "versions": [
+        {
+          "version": "1.10.0",
+          "protocol": 1,
+          "notes": "Kopírování souborů a složek (jednotlivě i výběr)",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/filemanager-v1.10.0/kinovna-plugin-filemanager_1.10.0_linux_x86_64.zip",
+              "sha256": "f0c2e9167e844bb4b10d0116dc4718a1d5477e524545a79a66df167b4a23a7b6"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/filemanager-v1.10.0/kinovna-plugin-filemanager_1.10.0_windows_x86_64.zip",
+              "sha256": "b644800e37d7a1c1c62e75d98d228096eaf04aa6c26657108c3c9139d4418e18"
+            }
+          ]
+        },
         {
           "version": "1.9.0",
           "protocol": 1,
