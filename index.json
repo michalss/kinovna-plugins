@@ -2,6 +2,38 @@
   "name": "Kinovna plugins",
   "plugins": [
     {
+      "id": "bugs",
+      "name": "Bugs",
+      "description": "Bug tracker for Kinovna itself: report bugs with severity, version and the platforms they affect (server, web, desktop, Android, Android TV, iOS, tvOS, Tizen, webOS), confirm and discuss them. Developers take bugs and track their status separately on each platform, including the version with the fix.",
+      "author": "Kinovna",
+      "homepage": "",
+      "permissions": [
+        "users.read",
+        "notifications"
+      ],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "protocol": 1,
+          "notes": "Nový plugin: evidence chyb se stavem podle platforem",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/bugs-v1.0.0/kinovna-plugin-bugs_1.0.0_linux_x86_64.zip",
+              "sha256": "c0e2abce9a236e361db87dca96667d2e8700b1df4b2c6e3c681f70c9d8bf6ca1"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/bugs-v1.0.0/kinovna-plugin-bugs_1.0.0_windows_x86_64.zip",
+              "sha256": "a5b31dbb0b34adeae68154c8775e79740d28e80d30645e5786b19ccd6c608366"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "csfd",
       "name": "ČSFD",
       "description": "ČSFD for movies and series: every title links to its page on csfd.cz (IDs from Wikidata), and ČSFD is a metadata source for titles that TMDB and IMDb do not know: search, found files and adding a title, with Czech plots, posters, ratings, cast and episodes.",
