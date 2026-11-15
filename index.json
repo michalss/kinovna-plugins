@@ -290,6 +290,25 @@
       ],
       "versions": [
         {
+          "version": "1.8.6",
+          "protocol": 1,
+          "notes": "Oblíbené z histra.net se synchronizují do Oblíbených v Kinovně (dřív vznikal vlastní seznam Favorites).",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/histra-v1.8.6/kinovna-plugin-histra_1.8.6_linux_x86_64.zip",
+              "sha256": "fc3b85992e3df6b55b5810c26691a9e9dfbd27fa7f589a9767439d3a39d4de76"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/histra-v1.8.6/kinovna-plugin-histra_1.8.6_windows_x86_64.zip",
+              "sha256": "1c15001df2dc412b5df378fd41b5bd5082f7aacd603b2a733fe3dc110f536ab8"
+            }
+          ]
+        },
+        {
           "version": "1.8.5",
           "protocol": 1,
           "notes": "",
