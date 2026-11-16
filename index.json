@@ -1072,6 +1072,25 @@
       ],
       "versions": [
         {
+          "version": "1.0.3",
+          "protocol": 1,
+          "notes": "Torrent 1.0.3: tlačítko Otevřít ve Files jen když je plugin Files nainstalovaný (i pro správce).",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/torrent-v1.0.3/kinovna-plugin-torrent_1.0.3_linux_x86_64.zip",
+              "sha256": "aa50096a824294aa4022b5f41c87a671d965925f1a8d06520419399d27e1aee2"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/torrent-v1.0.3/kinovna-plugin-torrent_1.0.3_windows_x86_64.zip",
+              "sha256": "3b404ef59455a6bcbb084647f3d5e250570609884374ab2f8b3277f59dc926d3"
+            }
+          ]
+        },
+        {
           "version": "1.0.2",
           "protocol": 1,
           "notes": "Torrent 1.0.2: tlačítko Otevřít ve Files na kartě torrentu (složka torrentu, u jednoho souboru zvýrazněný soubor).",
