@@ -417,6 +417,25 @@
       ],
       "versions": [
         {
+          "version": "1.8.7",
+          "protocol": 1,
+          "notes": "",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/histra-v1.8.7/kinovna-plugin-histra_1.8.7_linux_x86_64.zip",
+              "sha256": "91651680b57c796e4018c112bedecc4dd7c5db8e0b6ec556425822f3458cbabe"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/histra-v1.8.7/kinovna-plugin-histra_1.8.7_windows_x86_64.zip",
+              "sha256": "94da5b17ab0ddb7e3053072b1e9281e7fb2511883e8200760d66595f226fed5e"
+            }
+          ]
+        },
+        {
           "version": "1.8.6",
           "protocol": 1,
           "notes": "Oblíbené z histra.net se synchronizují do Oblíbených v Kinovně (dřív vznikal vlastní seznam Favorites).",
@@ -1052,6 +1071,25 @@
         "network"
       ],
       "versions": [
+        {
+          "version": "1.2.1",
+          "protocol": 1,
+          "notes": "",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/trakt-v1.2.1/kinovna-plugin-trakt_1.2.1_linux_x86_64.zip",
+              "sha256": "caa631fcb54857d93c37c3a85295a5a2327d523049f8b326136d6558f5a77444"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/trakt-v1.2.1/kinovna-plugin-trakt_1.2.1_windows_x86_64.zip",
+              "sha256": "551d1b520685a8f6a9d9bfe6e0725444e0c6aeb2ee95cef65002a43196879f35"
+            }
+          ]
+        },
         {
           "version": "1.2.0",
           "protocol": 1,
