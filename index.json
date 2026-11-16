@@ -1059,6 +1059,40 @@
       ]
     },
     {
+      "id": "torrent",
+      "name": "Torrent",
+      "description": "Torrent client: add magnet links or .torrent files, pick the files and the storage folder, watch progress, speed and peers, pause, resume and remove downloads; seeding stops at the configured ratio and the user is notified when a download finishes.",
+      "author": "Kinovna",
+      "homepage": "https://github.com/ikatson/rqbit",
+      "permissions": [
+        "network",
+        "files.read",
+        "files.write",
+        "notifications"
+      ],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "protocol": 1,
+          "notes": "Torrent 1.0.0: torrentový klient (librqbit) – magnet odkazy i soubory .torrent, výběr souborů a cílové složky v úložišti, průběh, rychlosti, peery, pozastavení, odebrání i se soubory, upozornění po dokončení, limity rychlosti a poměr seedování.",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/torrent-v1.0.0/kinovna-plugin-torrent_1.0.0_linux_x86_64.zip",
+              "sha256": "a14c3a69f99ea313225ad864b19a46bf242f386894ea3f87913b540b907e5037"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/torrent-v1.0.0/kinovna-plugin-torrent_1.0.0_windows_x86_64.zip",
+              "sha256": "1adb23c0d7bf26c21a3926ec37ed3a16d42ee63107b06c423253d6fea654fcc8"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "trakt",
       "name": "Trakt",
       "description": "Track what you watch on Trakt: scrobbling, watched titles, playback positions, watchlist, favorites and lists (direction per area), and Trakt IDs for your library.",
