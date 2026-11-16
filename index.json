@@ -1072,6 +1072,25 @@
       ],
       "versions": [
         {
+          "version": "1.0.1",
+          "protocol": 1,
+          "notes": "Torrent 1.0.1: klient se spustí až s načteným nastavením pluginu (port, UPnP a limity se dřív při startu ignorovaly).",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/torrent-v1.0.1/kinovna-plugin-torrent_1.0.1_linux_x86_64.zip",
+              "sha256": "5afdbfa92ed7046179634242700ee9afad005f983a27c6eb9fa1635cdc9d3316"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/torrent-v1.0.1/kinovna-plugin-torrent_1.0.1_windows_x86_64.zip",
+              "sha256": "0c4fb04daec244af04a60e078e8dfd2c555026e210bf5f8031c9cab10abd8ffa"
+            }
+          ]
+        },
+        {
           "version": "1.0.0",
           "protocol": 1,
           "notes": "Torrent 1.0.0: torrentový klient (librqbit) – magnet odkazy i soubory .torrent, výběr souborů a cílové složky v úložišti, průběh, rychlosti, peery, pozastavení, odebrání i se soubory, upozornění po dokončení, limity rychlosti a poměr seedování.",
