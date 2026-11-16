@@ -1072,6 +1072,25 @@
       ],
       "versions": [
         {
+          "version": "1.0.2",
+          "protocol": 1,
+          "notes": "Torrent 1.0.2: tlačítko Otevřít ve Files na kartě torrentu (složka torrentu, u jednoho souboru zvýrazněný soubor).",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/torrent-v1.0.2/kinovna-plugin-torrent_1.0.2_linux_x86_64.zip",
+              "sha256": "ad5299aa6ecfee4ea6c47fc6a40dac165e021fb743d4cb0c7516d2b092292906"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/torrent-v1.0.2/kinovna-plugin-torrent_1.0.2_windows_x86_64.zip",
+              "sha256": "9d9cd8365484e25b37499c60e833e7a1381b3a40dc60f00f2d635b1741445053"
+            }
+          ]
+        },
+        {
           "version": "1.0.1",
           "protocol": 1,
           "notes": "Torrent 1.0.1: klient se spustí až s načteným nastavením pluginu (port, UPnP a limity se dřív při startu ignorovaly).",
