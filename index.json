@@ -1019,6 +1019,25 @@
       ],
       "versions": [
         {
+          "version": "1.2.0",
+          "protocol": 1,
+          "notes": "",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/mediaflux-v1.2.0/kinovna-plugin-mediaflux_1.2.0_linux_x86_64.zip",
+              "sha256": "99fce6583b8621142efcdb806fd038d4ac790f9eba134f0d2a33fbb1f3b13c3b"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/mediaflux-v1.2.0/kinovna-plugin-mediaflux_1.2.0_windows_x86_64.zip",
+              "sha256": "f7a805db9fe9066d251bbc8dff1a81c6e57113f682ab55fa56a4ab205e8a4753"
+            }
+          ]
+        },
+        {
           "version": "1.1.0",
           "protocol": 1,
           "notes": "MediaFlux 1.1.0: hledání přes API MediaFluxu (účet + app token) místo databáze",
