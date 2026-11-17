@@ -1273,6 +1273,25 @@
       ],
       "versions": [
         {
+          "version": "1.0.1",
+          "protocol": 1,
+          "notes": "Usenet 1.0.1: stahování do složek úložiště (chyba  job output directory is outside configured storage roots); odebrání se soubory smaže i rozpracované soubory selhaného stahování.",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/usenet-v1.0.1/kinovna-plugin-usenet_1.0.1_linux_x86_64.zip",
+              "sha256": "69618dee0724ac81fa87e4d74a3305e7b018a20946a0ecd2ab7af548524cb564"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/usenet-v1.0.1/kinovna-plugin-usenet_1.0.1_windows_x86_64.zip",
+              "sha256": "4340f2efa5afacbd542f5b760832a761b77367959c52a758bb1c187b41d5eda1"
+            }
+          ]
+        },
+        {
           "version": "1.0.0",
           "protocol": 1,
           "notes": "Usenet 1.0.0: stahování NZB (engine rustnzb) – více poskytovatelů s vlastním počtem spojení a prioritou (hlavní a záložní), šifrovaná hesla, test přihlášení, kontrola a PAR2 oprava, rozbalení (7-Zip/unrar, plugin si 7-Zip umí stáhnout sám), přesun do složky v úložišti, fronta, historie, upozornění a lokální API pro jiné pluginy. Torrent 1.1.1: společný kód stahovacích pluginů (beze změny chování).",
