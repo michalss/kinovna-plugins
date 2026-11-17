@@ -1072,6 +1072,25 @@
       ],
       "versions": [
         {
+          "version": "1.1.2",
+          "protocol": 1,
+          "notes": "Odkazy z Prowlarru/Jackettu přesměrované na magnet",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/torrent-v1.1.2/kinovna-plugin-torrent_1.1.2_linux_x86_64.zip",
+              "sha256": "4bfcc7dfb48863e81ffbbe35c68d02e84c63cf523e09ab757ff6356796317c7e"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/torrent-v1.1.2/kinovna-plugin-torrent_1.1.2_windows_x86_64.zip",
+              "sha256": "34f182d7d36c2cf29287a1e9d30a3a2f5e6db5b31649d12912c550ec1674bd60"
+            }
+          ]
+        },
+        {
           "version": "1.1.1",
           "protocol": 1,
           "notes": "Usenet 1.0.0: stahování NZB (engine rustnzb) – více poskytovatelů s vlastním počtem spojení a prioritou (hlavní a záložní), šifrovaná hesla, test přihlášení, kontrola a PAR2 oprava, rozbalení (7-Zip/unrar, plugin si 7-Zip umí stáhnout sám), přesun do složky v úložišti, fronta, historie, upozornění a lokální API pro jiné pluginy. Torrent 1.1.1: společný kód stahovacích pluginů (beze změny chování).",
