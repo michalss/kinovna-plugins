@@ -1273,6 +1273,25 @@
       ],
       "versions": [
         {
+          "version": "1.0.2",
+          "protocol": 1,
+          "notes": "Usenet 1.0.2: přetažení souborů NZB myší (na stránku i do dialogu), víc NZB najednou do stejné složky.",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/usenet-v1.0.2/kinovna-plugin-usenet_1.0.2_linux_x86_64.zip",
+              "sha256": "21bfc7251e19bfccde9ab1f5abc939abdbe489ad2eb6957b5bb1b7a1323162c9"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/usenet-v1.0.2/kinovna-plugin-usenet_1.0.2_windows_x86_64.zip",
+              "sha256": "781bfae927db8bf34b2ca8204abf1d3a57d52c0f7e65e61a39ea23384403aae8"
+            }
+          ]
+        },
+        {
           "version": "1.0.1",
           "protocol": 1,
           "notes": "Usenet 1.0.1: stahování do složek úložiště (chyba  job output directory is outside configured storage roots); odebrání se soubory smaže i rozpracované soubory selhaného stahování.",
