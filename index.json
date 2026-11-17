@@ -200,6 +200,40 @@
       ]
     },
     {
+      "id": "fastshare",
+      "name": "FastShare",
+      "description": "Search FastShare.cz and download files into the storage with your FastShare account. Works through the plugin bus: results and downloads appear in the Search plugin.",
+      "author": "Kinovna",
+      "homepage": "https://fastshare.cz",
+      "permissions": [
+        "network",
+        "files.read",
+        "files.write",
+        "notifications"
+      ],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "protocol": 1,
+          "notes": "FastShare na sběrnici pluginů (hledání, stahování); Webshare: sdílené účty a odkazy",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/fastshare-v1.0.0/kinovna-plugin-fastshare_1.0.0_linux_x86_64.zip",
+              "sha256": "6b00ef579f144d911a10f1c9a45b687e988bf0a3473795c65d8673cf0e62d601"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/fastshare-v1.0.0/kinovna-plugin-fastshare_1.0.0_windows_x86_64.zip",
+              "sha256": "67e35ab38263da31f515a1a06d6d4fba406f858e257e63e90d4b3afd93ae2b64"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "filemanager",
       "name": "File manager",
       "description": "Browse storage roots, preview files (text editor, images, media tracks and languages), create folders, rename, move, copy and delete files (also many at once), upload files and folders, rename video files to release-style names from metadata (library title, or the file name outside the library). Changes only in roots marked as writable; moving a library file updates the title version.",
@@ -1452,6 +1486,25 @@
         "notifications"
       ],
       "versions": [
+        {
+          "version": "1.1.1",
+          "protocol": 1,
+          "notes": "FastShare na sběrnici pluginů (hledání, stahování); Webshare: sdílené účty a odkazy",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/webshare-v1.1.1/kinovna-plugin-webshare_1.1.1_linux_x86_64.zip",
+              "sha256": "eac663695f903afcf545d6497ba61dc53ec840994ac97cdd5b3408bf8ce61fa1"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/webshare-v1.1.1/kinovna-plugin-webshare_1.1.1_windows_x86_64.zip",
+              "sha256": "701602ab9d4efcfa1eae14600746f315bfc3694469eb1aab568c5d0c6804070e"
+            }
+          ]
+        },
         {
           "version": "1.1.0",
           "protocol": 1,
