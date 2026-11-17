@@ -2,6 +2,40 @@
   "name": "Kinovna plugins",
   "plugins": [
     {
+      "id": "autopilot",
+      "name": "Autopilot",
+      "description": "Automatic TV series downloads (replaces Sonarr): follows series on TMDB, finds missing episodes through the Search plugin and other sources, picks the best release by quality profile (resolution, Czech dubbing and subtitles, size), downloads it with Torrent, Usenet or file hosts and moves finished episodes into the series folder. Imports series and profiles from Sonarr.",
+      "author": "Kinovna",
+      "homepage": "",
+      "permissions": [
+        "network",
+        "library.read",
+        "files.read",
+        "files.write"
+      ],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "protocol": 1,
+          "notes": "Autopilot 1.0.0: automatické stahování seriálů (náhrada Sonarru), import ze Sonarru",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/autopilot-v1.0.0/kinovna-plugin-autopilot_1.0.0_linux_x86_64.zip",
+              "sha256": "624d554b885e892e9c579c150f1ed4103c5b388bfaf9db35481b73ef54e2bfd3"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/autopilot-v1.0.0/kinovna-plugin-autopilot_1.0.0_windows_x86_64.zip",
+              "sha256": "344551c73d92b15c9941bbf1218a468deca64f33d383f61aedb4e9b75a9f9dd8"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "bugs",
       "name": "Bugs & requests",
       "description": "Tracker for Kinovna itself: bugs, new features and change requests with priority, version and the platforms they affect (server, web, desktop, Android, Android TV, iOS, tvOS, Tizen, webOS), votes and a conversation with mentions and images. Developers take items and track their status separately on each platform, including the version with the fix.",
