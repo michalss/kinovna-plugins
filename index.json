@@ -1006,6 +1006,38 @@
       ]
     },
     {
+      "id": "search",
+      "name": "Search",
+      "description": "Search newznab and torznab indexers (Prowlarr, Jackett, NZBHydra) and other plugins in one place and send a result to the Torrent or Usenet plugin.",
+      "author": "Kinovna",
+      "homepage": "https://github.com/michalss/kinovna-plugins",
+      "permissions": [
+        "network",
+        "files.read"
+      ],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "protocol": 1,
+          "notes": "Sběrnice pluginů: Torrent a Usenet nabízejí službu download, nový plugin Vyhledávání (newznab/torznab, Prowlarr)",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/search-v1.0.0/kinovna-plugin-search_1.0.0_linux_x86_64.zip",
+              "sha256": "957d479bb2117e52dd5e3148c7ee75cc9530cac6ee42c105618daf01f11b24fc"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/search-v1.0.0/kinovna-plugin-search_1.0.0_windows_x86_64.zip",
+              "sha256": "e8863b1ab15fa83b71d1aa99dae28ecb7dd8cfa05fb643be3b098cfd085cc226"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "titulky",
       "name": "Titulky.com",
       "description": "Czech and Slovak subtitles from titulky.com: offered in the subtitle search of each title version (episodes matched exactly by the series, release matches first) and on the Titulky.com page with the latest subtitles, search, translations in progress and saving next to videos.",
@@ -1071,6 +1103,25 @@
         "notifications"
       ],
       "versions": [
+        {
+          "version": "1.2.0",
+          "protocol": 1,
+          "notes": "Sběrnice pluginů: Torrent a Usenet nabízejí službu download, nový plugin Vyhledávání (newznab/torznab, Prowlarr)",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/torrent-v1.2.0/kinovna-plugin-torrent_1.2.0_linux_x86_64.zip",
+              "sha256": "49d5bf6712d85f6981bab5dfc7bed1bb55b4c3bdd91d285aeb63d4f7d74af46e"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/torrent-v1.2.0/kinovna-plugin-torrent_1.2.0_windows_x86_64.zip",
+              "sha256": "648b8734da1a017fff9bc2d125de98cabcd818f6b41d2e24f8ab448375774324"
+            }
+          ]
+        },
         {
           "version": "1.1.2",
           "protocol": 1,
@@ -1291,6 +1342,25 @@
         "notifications"
       ],
       "versions": [
+        {
+          "version": "1.1.0",
+          "protocol": 1,
+          "notes": "Sběrnice pluginů: Torrent a Usenet nabízejí službu download, nový plugin Vyhledávání (newznab/torznab, Prowlarr)",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/usenet-v1.1.0/kinovna-plugin-usenet_1.1.0_linux_x86_64.zip",
+              "sha256": "70e4bb34253f2dd3121aa959182ab1462fb6cc3108658ecc502162867269f404"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/usenet-v1.1.0/kinovna-plugin-usenet_1.1.0_windows_x86_64.zip",
+              "sha256": "6981b0333e0b186b14bb796e15fae17ad88f98f4dce10caf4e0926d6a61bc553"
+            }
+          ]
+        },
         {
           "version": "1.0.2",
           "protocol": 1,
