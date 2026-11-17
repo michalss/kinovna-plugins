@@ -1051,6 +1051,25 @@
       ],
       "versions": [
         {
+          "version": "1.3.0",
+          "protocol": 1,
+          "notes": "",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/search-v1.3.0/kinovna-plugin-search_1.3.0_linux_x86_64.zip",
+              "sha256": "c03f14a37572ce87bc4ca07bcb62917bab1559b00fe3d3e4d269099f30054fc7"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/search-v1.3.0/kinovna-plugin-search_1.3.0_windows_x86_64.zip",
+              "sha256": "474d812a07d5dc232f0a7f33f61872e1aacaee8114e9a522229f10572e52744c"
+            }
+          ]
+        },
+        {
           "version": "1.2.0",
           "protocol": 1,
           "notes": "Trackery bez Prowlarru (definice z Prowlarru: SkTorrent, TreZzoR a další)",
