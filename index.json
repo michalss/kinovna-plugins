@@ -1072,6 +1072,25 @@
       ],
       "versions": [
         {
+          "version": "1.1.1",
+          "protocol": 1,
+          "notes": "Usenet 1.0.0: stahování NZB (engine rustnzb) – více poskytovatelů s vlastním počtem spojení a prioritou (hlavní a záložní), šifrovaná hesla, test přihlášení, kontrola a PAR2 oprava, rozbalení (7-Zip/unrar, plugin si 7-Zip umí stáhnout sám), přesun do složky v úložišti, fronta, historie, upozornění a lokální API pro jiné pluginy. Torrent 1.1.1: společný kód stahovacích pluginů (beze změny chování).",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/torrent-v1.1.1/kinovna-plugin-torrent_1.1.1_linux_x86_64.zip",
+              "sha256": "94c2d07a51c621ae9a41f58869ff7c57f63339f17bfa4fd20b79a4592cdc0de6"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/torrent-v1.1.1/kinovna-plugin-torrent_1.1.1_windows_x86_64.zip",
+              "sha256": "aca05e84cf53cf44222b6105de4322abc36b0a6f5f22bc2310a2378399b34633"
+            }
+          ]
+        },
+        {
           "version": "1.1.0",
           "protocol": 1,
           "notes": "Torrent 1.1.0: lokální API pro ostatní pluginy (přidání odkazu nebo .torrent, stav, detail se soubory, pozastavení, pokračování, výběr souborů, odebrání) s klientem kinovna-torrent-client; u torrentu je vidět, který plugin ho přidal.",
@@ -1235,6 +1254,40 @@
               "arch": "x86_64",
               "url": "https://github.com/michalss/kinovna-plugins/releases/download/trakt-v1.1.0/kinovna-plugin-trakt_1.1.0_windows_x86_64.zip",
               "sha256": "0232258fbcb73860bbf6641332e63f54fa49cfc79dfd125bb5f93af75e258e03"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "usenet",
+      "name": "Usenet",
+      "description": "Usenet (NZB) downloader: several providers with their own connection counts and priorities, PAR2 repair and unpacking, downloads straight into storage folders with progress, speed, pause, resume and history; the user is notified when a download finishes. Other plugins can add and control downloads through its local API.",
+      "author": "Kinovna",
+      "homepage": "https://github.com/TheDancingDeveloper-org/rustnzb",
+      "permissions": [
+        "network",
+        "files.read",
+        "files.write",
+        "notifications"
+      ],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "protocol": 1,
+          "notes": "Usenet 1.0.0: stahování NZB (engine rustnzb) – více poskytovatelů s vlastním počtem spojení a prioritou (hlavní a záložní), šifrovaná hesla, test přihlášení, kontrola a PAR2 oprava, rozbalení (7-Zip/unrar, plugin si 7-Zip umí stáhnout sám), přesun do složky v úložišti, fronta, historie, upozornění a lokální API pro jiné pluginy. Torrent 1.1.1: společný kód stahovacích pluginů (beze změny chování).",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/usenet-v1.0.0/kinovna-plugin-usenet_1.0.0_linux_x86_64.zip",
+              "sha256": "59e19dee522c68a186cd28460959baff5ccd950d365207ab899f15b424fba97e"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/usenet-v1.0.0/kinovna-plugin-usenet_1.0.0_windows_x86_64.zip",
+              "sha256": "9302d5af6a21a17087aec6de2a2e4002bdd19418ab831b1476c4c4fd758eb3d6"
             }
           ]
         }
