@@ -15,6 +15,25 @@
       ],
       "versions": [
         {
+          "version": "1.0.2",
+          "protocol": 1,
+          "notes": "",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/autopilot-v1.0.2/kinovna-plugin-autopilot_1.0.2_linux_x86_64.zip",
+              "sha256": "ba44a257a3f85b165672b3fc85b7893cd1d4d8c4158daf6990de78c1b67e8e18"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/autopilot-v1.0.2/kinovna-plugin-autopilot_1.0.2_windows_x86_64.zip",
+              "sha256": "13664e0310779f8bd8f3066b2c3a219fe07a9287f3cca0b836c39e734809d270"
+            }
+          ]
+        },
+        {
           "version": "1.0.0",
           "protocol": 1,
           "notes": "Autopilot 1.0.0: automatické stahování seriálů (náhrada Sonarru), import ze Sonarru",
