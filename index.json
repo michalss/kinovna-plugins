@@ -1042,7 +1042,7 @@
     {
       "id": "search",
       "name": "Search",
-      "description": "Search newznab and torznab indexers (Prowlarr, Jackett, NZBHydra) and other plugins in one place and send a result to the Torrent or Usenet plugin.",
+      "description": "Search trackers (Prowlarr definitions, no Prowlarr needed), newznab and torznab indexers and other plugins in one place and send a result to the Torrent or Usenet plugin.",
       "author": "Kinovna",
       "homepage": "https://github.com/michalss/kinovna-plugins",
       "permissions": [
@@ -1050,6 +1050,25 @@
         "files.read"
       ],
       "versions": [
+        {
+          "version": "1.2.0",
+          "protocol": 1,
+          "notes": "Trackery bez Prowlarru (definice z Prowlarru: SkTorrent, TreZzoR a další)",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/search-v1.2.0/kinovna-plugin-search_1.2.0_linux_x86_64.zip",
+              "sha256": "5be4e40918f39d0f9b9133bd70fab8480046bbeb1fc1375ef2fb7ecf29f15a7c"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/search-v1.2.0/kinovna-plugin-search_1.2.0_windows_x86_64.zip",
+              "sha256": "88f111d7138f4280efe37bb9229283aa6783b52e994da8aa6d9f331b47164351"
+            }
+          ]
+        },
         {
           "version": "1.1.0",
           "protocol": 1,
