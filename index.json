@@ -1017,6 +1017,25 @@
       ],
       "versions": [
         {
+          "version": "1.1.0",
+          "protocol": 1,
+          "notes": "Webshare na sběrnici (hledání, stahování do úložiště); Vyhledávání: záložka Stahování",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/search-v1.1.0/kinovna-plugin-search_1.1.0_linux_x86_64.zip",
+              "sha256": "1398602e198189e52eaa79d4de653757ce8d74198de4059a9967e475e9869e0d"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/search-v1.1.0/kinovna-plugin-search_1.1.0_windows_x86_64.zip",
+              "sha256": "19d028a6594f94cca0d0a7763e283f4329b39eb09649251422c51d75ab01d26c"
+            }
+          ]
+        },
+        {
           "version": "1.0.0",
           "protocol": 1,
           "notes": "Sběrnice pluginů: Torrent a Usenet nabízejí službu download, nový plugin Vyhledávání (newznab/torznab, Prowlarr)",
@@ -1423,13 +1442,35 @@
     {
       "id": "webshare",
       "name": "Webshare",
-      "description": "Add files from Webshare.cz to the library and play them with each viewer's own Webshare account. The direct link is created when playback starts and renewed when it expires.",
+      "description": "Add files from Webshare.cz to the library and play them with each viewer's own Webshare account. The direct link is created when playback starts and renewed when it expires. Other plugins (Search) can search Webshare and download files into the storage.",
       "author": "Kinovna",
       "homepage": "https://webshare.cz",
       "permissions": [
-        "network"
+        "network",
+        "files.read",
+        "files.write",
+        "notifications"
       ],
       "versions": [
+        {
+          "version": "1.1.0",
+          "protocol": 1,
+          "notes": "Webshare na sběrnici (hledání, stahování do úložiště); Vyhledávání: záložka Stahování",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/webshare-v1.1.0/kinovna-plugin-webshare_1.1.0_linux_x86_64.zip",
+              "sha256": "19cee80230e40ae2bd6f1f078b9f905a3162e4633f0f3963f9517146ed5b031f"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/webshare-v1.1.0/kinovna-plugin-webshare_1.1.0_windows_x86_64.zip",
+              "sha256": "91a077c0ced906529775f0c05a6c2ae0f163fd62ec4f1e2dc7309b9af965e90a"
+            }
+          ]
+        },
         {
           "version": "1.0.0",
           "protocol": 1,
