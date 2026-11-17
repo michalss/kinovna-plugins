@@ -1061,7 +1061,7 @@
     {
       "id": "torrent",
       "name": "Torrent",
-      "description": "Torrent client: add magnet links or .torrent files, pick the files and the storage folder, watch progress, speed and peers, pause, resume and remove downloads; seeding stops at the configured ratio and the user is notified when a download finishes.",
+      "description": "Torrent client: add magnet links or .torrent files, pick the files and the storage folder, watch progress, speed and peers, pause, resume and remove downloads; seeding stops at the configured ratio and the user is notified when a download finishes. Other plugins can add and control torrents through its local API.",
       "author": "Kinovna",
       "homepage": "https://github.com/ikatson/rqbit",
       "permissions": [
@@ -1071,6 +1071,25 @@
         "notifications"
       ],
       "versions": [
+        {
+          "version": "1.1.0",
+          "protocol": 1,
+          "notes": "Torrent 1.1.0: lokální API pro ostatní pluginy (přidání odkazu nebo .torrent, stav, detail se soubory, pozastavení, pokračování, výběr souborů, odebrání) s klientem kinovna-torrent-client; u torrentu je vidět, který plugin ho přidal.",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/torrent-v1.1.0/kinovna-plugin-torrent_1.1.0_linux_x86_64.zip",
+              "sha256": "6ce7667e53922869f269fcc7b2a64952ff4c502dea913bdc3d8c169f9293cfe8"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/torrent-v1.1.0/kinovna-plugin-torrent_1.1.0_windows_x86_64.zip",
+              "sha256": "547432b6cdfc73b94ac47b986b2d9a5ca9e072cf237a81bd72115a9aa900940d"
+            }
+          ]
+        },
         {
           "version": "1.0.3",
           "protocol": 1,
