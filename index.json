@@ -953,6 +953,40 @@
       ]
     },
     {
+      "id": "mediaflux",
+      "name": "MediaFlux",
+      "description": "Search the MediaFlux catalogue (movies and TV episodes with titles, year, quality and languages) and download the files from Webshare into the storage with a Webshare token. The encrypted file header is decrypted after the download. Works through the plugin bus: results and downloads appear in the Search plugin.",
+      "author": "Kinovna",
+      "homepage": "https://webshare.cz",
+      "permissions": [
+        "network",
+        "files.read",
+        "files.write",
+        "notifications"
+      ],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "protocol": 1,
+          "notes": "",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/mediaflux-v1.0.0/kinovna-plugin-mediaflux_1.0.0_linux_x86_64.zip",
+              "sha256": "3d2b436ed7aa869b66dc86de26bb8b582ad8fe5c3187f6fbb82ec8be96e13b3f"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/mediaflux-v1.0.0/kinovna-plugin-mediaflux_1.0.0_windows_x86_64.zip",
+              "sha256": "4a5bd7c3d019a0a2544e39b61f1fdac0c9fb6b7c12c95bcdd83009ca330a738c"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "reports",
       "name": "Reports",
       "description": "Users report problems with movies, series and episodes in the library (picture, sound, subtitles, playback, stream, metadata) right from the title page, together with the file (version) and playback position they were streaming; others can confirm them and discuss them in comments. Operators take reports, then close them as resolved or dismissed.",
@@ -1050,6 +1084,25 @@
         "files.read"
       ],
       "versions": [
+        {
+          "version": "1.3.1",
+          "protocol": 1,
+          "notes": "",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/search-v1.3.1/kinovna-plugin-search_1.3.1_linux_x86_64.zip",
+              "sha256": "59a4644dfafc1d54d5f1e24bad2e99520f19b62f54f92b36eb106487fca449c4"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/search-v1.3.1/kinovna-plugin-search_1.3.1_windows_x86_64.zip",
+              "sha256": "263bb6a15d1bba92d61dbaf017f5e0a05f65535b01a7c2565dbae1aa1b12ebfa"
+            }
+          ]
+        },
         {
           "version": "1.3.0",
           "protocol": 1,
@@ -1433,6 +1486,25 @@
         "notifications"
       ],
       "versions": [
+        {
+          "version": "1.1.1",
+          "protocol": 1,
+          "notes": "",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/usenet-v1.1.1/kinovna-plugin-usenet_1.1.1_linux_x86_64.zip",
+              "sha256": "77c373762be6abc2ce90bf007669728b141cdcff76039dad270119dc3fa05169"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/usenet-v1.1.1/kinovna-plugin-usenet_1.1.1_windows_x86_64.zip",
+              "sha256": "12b470e7c61c4532eb510982cd407e1dd655b2938e02c7c029caaceafe99713a"
+            }
+          ]
+        },
         {
           "version": "1.1.0",
           "protocol": 1,
