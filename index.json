@@ -555,7 +555,7 @@
     {
       "id": "filemanager",
       "name": "File manager",
-      "description": "Browse storage roots, preview files (text editor, images, media tracks and languages), create folders, rename, move, copy and delete files (also many at once), upload files and folders, rename video files to release-style names from metadata (library title, or the file name outside the library). Changes only in roots marked as writable; moving a library file updates the title version.",
+      "description": "Browse storage roots, preview files (text editor, images, media tracks and languages), create folders, rename, move, copy and delete files (also many at once), upload files and folders, rename video files to release-style names from metadata (library title, or the file name outside the library). Changes only in roots marked as writable; moving a library file updates the title version, deleting it removes the version from the title.",
       "author": "Kinovna",
       "homepage": "",
       "permissions": [
@@ -564,6 +564,25 @@
         "library.read"
       ],
       "versions": [
+        {
+          "version": "1.11.0",
+          "protocol": 1,
+          "notes": "Smazání souboru z knihovny odebere jeho verzi z titulu (vyžaduje novější server).",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/filemanager-v1.11.0/kinovna-plugin-filemanager_1.11.0_linux_x86_64.zip",
+              "sha256": "93d6f795ba6198ebad1737c966f5b96711c5079628ab0c37448d836fde4dca9e"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/filemanager-v1.11.0/kinovna-plugin-filemanager_1.11.0_windows_x86_64.zip",
+              "sha256": "cb72daa9eac5948f138db7b2ed43761b1b7754ab64fcdb49a0cda5a968d5e484"
+            }
+          ]
+        },
         {
           "version": "1.10.0",
           "protocol": 1,
