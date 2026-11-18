@@ -15,6 +15,25 @@
       ],
       "versions": [
         {
+          "version": "1.10.0",
+          "protocol": 1,
+          "notes": "",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/autopilot-v1.10.0/kinovna-plugin-autopilot_1.10.0_linux_x86_64.zip",
+              "sha256": "3d5c663cc41439e9780caa403d67f3c29c0fe605dd297caf668085ee55b17431"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/autopilot-v1.10.0/kinovna-plugin-autopilot_1.10.0_windows_x86_64.zip",
+              "sha256": "3dfa1293e6f4d346885055599c4d2b632b685a1bb1003edfae46d94626a519da"
+            }
+          ]
+        },
+        {
           "version": "1.9.0",
           "protocol": 1,
           "notes": "",
@@ -1184,7 +1203,7 @@
     {
       "id": "mediaedit",
       "name": "Media editor",
-      "description": "Edit tracks of MKV files: rename tracks, change languages and default/forced flags (instantly, without rewriting the file), add subtitles and audio, remove and reorder tracks, extract subtitles. Uses MKVToolNix, which the plugin can download and install by itself.",
+      "description": "Edit tracks of MKV files: rename tracks, change languages and default/forced flags (instantly, without rewriting the file), add subtitles and audio, remove and reorder tracks, extract subtitles; other plugins (Autopilot) can have subtitles in unwanted languages removed through the plugin bus. Uses MKVToolNix, which the plugin can download and install by itself.",
       "author": "Kinovna",
       "homepage": "https://mkvtoolnix.download",
       "permissions": [
@@ -1193,6 +1212,25 @@
         "network"
       ],
       "versions": [
+        {
+          "version": "1.1.0",
+          "protocol": 1,
+          "notes": "",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/mediaedit-v1.1.0/kinovna-plugin-mediaedit_1.1.0_linux_x86_64.zip",
+              "sha256": "455cbe433a0426176428455e3954eb697885437b76dc6e8d882512bf937d8da3"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/mediaedit-v1.1.0/kinovna-plugin-mediaedit_1.1.0_windows_x86_64.zip",
+              "sha256": "73eee65a9ea9ce8ae636c12bf7c4ab17429132af8a0b6c9067cd822d215f7e98"
+            }
+          ]
+        },
         {
           "version": "1.0.0",
           "protocol": 1,
