@@ -15,6 +15,25 @@
       ],
       "versions": [
         {
+          "version": "1.3.0",
+          "protocol": 1,
+          "notes": "",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/autopilot-v1.3.0/kinovna-plugin-autopilot_1.3.0_linux_x86_64.zip",
+              "sha256": "1039ffd24734d9616d163a6e2c18abbde78bcd289cc4712f3700474888a4c765"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/autopilot-v1.3.0/kinovna-plugin-autopilot_1.3.0_windows_x86_64.zip",
+              "sha256": "9ecb1d8559bffce228b007902c6ecc2fa43cb3a68c16bf92936054aad63b9874"
+            }
+          ]
+        },
+        {
           "version": "1.2.0",
           "protocol": 1,
           "notes": "",
