@@ -1114,6 +1114,25 @@
       ],
       "versions": [
         {
+          "version": "1.3.0",
+          "protocol": 1,
+          "notes": "",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/mediaflux-v1.3.0/kinovna-plugin-mediaflux_1.3.0_linux_x86_64.zip",
+              "sha256": "6abbfba58d33b25f9a5ef94daa7e8d5d032c2643db0ac1d2b8f1e2be0db82fee"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/mediaflux-v1.3.0/kinovna-plugin-mediaflux_1.3.0_windows_x86_64.zip",
+              "sha256": "e9730a378cbe0490f04c30e449ba45d4cb0bf5e376f2706524cc03e8e3865ae4"
+            }
+          ]
+        },
+        {
           "version": "1.2.2",
           "protocol": 1,
           "notes": "",
