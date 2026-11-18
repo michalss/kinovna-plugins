@@ -1305,9 +1305,29 @@
       "homepage": "https://github.com/michalss/kinovna-plugins",
       "permissions": [
         "network",
-        "files.read"
+        "files.read",
+        "library.read"
       ],
       "versions": [
+        {
+          "version": "1.5.0",
+          "protocol": 1,
+          "notes": "",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/search-v1.5.0/kinovna-plugin-search_1.5.0_linux_x86_64.zip",
+              "sha256": "a2ed2e46367e5293e56876156dfb8a8d1c81e7036ab59d6ff0e6a26b531053a8"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/search-v1.5.0/kinovna-plugin-search_1.5.0_windows_x86_64.zip",
+              "sha256": "9e76df131bff1f64c7577f739da75ebfd2fb3584012ac4cd239915bf86e9e4e3"
+            }
+          ]
+        },
         {
           "version": "1.4.0",
           "protocol": 1,
