@@ -15,6 +15,25 @@
       ],
       "versions": [
         {
+          "version": "1.14.0",
+          "protocol": 1,
+          "notes": "",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/autopilot-v1.14.0/kinovna-plugin-autopilot_1.14.0_linux_x86_64.zip",
+              "sha256": "5740bb9a4059afe73c9ef5f1d344ed345d8e58707fb8edfa8229c301f5d3cd42"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/autopilot-v1.14.0/kinovna-plugin-autopilot_1.14.0_windows_x86_64.zip",
+              "sha256": "72be93cabe54a7c9f1affd1fef73257bee0c0e8970e6d38b972b9a72fe630d8e"
+            }
+          ]
+        },
+        {
           "version": "1.13.1",
           "protocol": 1,
           "notes": "TheTVDB: PIN odběratele v nastavení a srozumitelná chyba přihlášení.",
@@ -1436,6 +1455,25 @@
       ],
       "versions": [
         {
+          "version": "1.2.1",
+          "protocol": 1,
+          "notes": "",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/mediaedit-v1.2.1/kinovna-plugin-mediaedit_1.2.1_linux_x86_64.zip",
+              "sha256": "82ac2f9b55a6dd69fb28e8fbab9a0fdce62c95a5157a11bd33cbb27002199c83"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/mediaedit-v1.2.1/kinovna-plugin-mediaedit_1.2.1_windows_x86_64.zip",
+              "sha256": "fe7205af59add4d4239bd83e830c27615d2cdc669f7e6917887cd5b7bebe3ae2"
+            }
+          ]
+        },
+        {
           "version": "1.2.0",
           "protocol": 1,
           "notes": "Úprava médií: hledání ve výběru souboru (v této složce / ve všech úložištích); Soubory: sdílené hledání",
@@ -1723,6 +1761,25 @@
       ],
       "versions": [
         {
+          "version": "1.6.1",
+          "protocol": 1,
+          "notes": "",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/search-v1.6.1/kinovna-plugin-search_1.6.1_linux_x86_64.zip",
+              "sha256": "9f2e1f63e4121a3e81bda90f3088768da571d5e5f14e7070533436920ddd6b38"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/search-v1.6.1/kinovna-plugin-search_1.6.1_windows_x86_64.zip",
+              "sha256": "725b96925aa3c876493a68ad2f9a10bcaaa02ea0427a254c34e1c583717db104"
+            }
+          ]
+        },
+        {
           "version": "1.6.0",
           "protocol": 1,
           "notes": "",
@@ -1890,6 +1947,25 @@
       ],
       "versions": [
         {
+          "version": "1.1.0",
+          "protocol": 1,
+          "notes": "",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/titulky-v1.1.0/kinovna-plugin-titulky_1.1.0_linux_x86_64.zip",
+              "sha256": "63adf0a497bf31a131722cbaf6f967835d9229a562f2176460bafd443d77ef68"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/titulky-v1.1.0/kinovna-plugin-titulky_1.1.0_windows_x86_64.zip",
+              "sha256": "f69cbf30f2797927b44c89e0f8c499d08beaf6c98e34165fcdf39adf8f83720b"
+            }
+          ]
+        },
+        {
           "version": "1.0.1",
           "protocol": 1,
           "notes": "Titulky.com 1.0.1: výpis se čte podle záhlaví tabulky (přihlášený účet má jiné sloupce), log hledání.",
@@ -1942,6 +2018,25 @@
         "notifications"
       ],
       "versions": [
+        {
+          "version": "1.4.0",
+          "protocol": 1,
+          "notes": "",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/torrent-v1.4.0/kinovna-plugin-torrent_1.4.0_linux_x86_64.zip",
+              "sha256": "c3e3d76860301e7efbe9ea751827207f4f206c961fbcdc32a0b1cad3a0ceeda4"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/torrent-v1.4.0/kinovna-plugin-torrent_1.4.0_windows_x86_64.zip",
+              "sha256": "455289402bf5eaf7e0c0e72770e16c9d640ee86710261c1ce9b145ae5cb2d02e"
+            }
+          ]
+        },
         {
           "version": "1.3.0",
           "protocol": 1,
@@ -2200,6 +2295,25 @@
         "notifications"
       ],
       "versions": [
+        {
+          "version": "1.2.0",
+          "protocol": 1,
+          "notes": "",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/usenet-v1.2.0/kinovna-plugin-usenet_1.2.0_linux_x86_64.zip",
+              "sha256": "2a3dc0daef3e32cee14460ccc98f2b2aec6c6bc23153dfd3ffff98cb741938cd"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/usenet-v1.2.0/kinovna-plugin-usenet_1.2.0_windows_x86_64.zip",
+              "sha256": "9827b7d929e0675189f66574630598ac002692e5fef576b92aa829496734aedc"
+            }
+          ]
+        },
         {
           "version": "1.1.1",
           "protocol": 1,
