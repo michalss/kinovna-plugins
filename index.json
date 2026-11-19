@@ -569,6 +569,25 @@
       ],
       "versions": [
         {
+          "version": "1.1.0",
+          "protocol": 1,
+          "notes": "Pozůstatky po sloučení jde smazat; složky a soubory jde otevřít v Souborech",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/diskmerge-v1.1.0/kinovna-plugin-diskmerge_1.1.0_linux_x86_64.zip",
+              "sha256": "09278c6c05a6356caae571691eb1f9617eb2881542851824fc8b77bfdf78d956"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/diskmerge-v1.1.0/kinovna-plugin-diskmerge_1.1.0_windows_x86_64.zip",
+              "sha256": "4dd1ff6c7a694a238d57ccf114fa996bf9fcbbfdc11e585de4e4b42d220384e0"
+            }
+          ]
+        },
+        {
           "version": "1.0.1",
           "protocol": 1,
           "notes": "Výsledek hledání se ukládá a přežije restart serveru i aktualizaci pluginu",
