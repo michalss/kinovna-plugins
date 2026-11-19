@@ -1723,6 +1723,25 @@
       ],
       "versions": [
         {
+          "version": "1.6.0",
+          "protocol": 1,
+          "notes": "",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/search-v1.6.0/kinovna-plugin-search_1.6.0_linux_x86_64.zip",
+              "sha256": "99324ef17bbddfcb0fc9013694a802f652b9307540119213a104957eb2f13a6b"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/search-v1.6.0/kinovna-plugin-search_1.6.0_windows_x86_64.zip",
+              "sha256": "ed87962ae162447c05af35324bf2f9a5cb09fd833fb06c0b014a24ce34b7be71"
+            }
+          ]
+        },
+        {
           "version": "1.5.0",
           "protocol": 1,
           "notes": "",
