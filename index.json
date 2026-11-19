@@ -721,15 +721,35 @@
     {
       "id": "filemanager",
       "name": "File manager",
-      "description": "Browse storage roots, preview files (text editor, images, media tracks and languages), create folders, rename, move, copy and delete files (also many at once), upload files and folders, rename video files to release-style names from metadata (library title, or the file name outside the library). Changes only in roots marked as writable; moving a library file updates the title version, deleting it removes the version from the title.",
+      "description": "Browse storage roots, preview files (text editor, images, media tracks and languages), create folders, rename, move, copy and delete files (also many at once), upload files and folders, extract ZIP, RAR and 7z archives (7-Zip), rename video files to release-style names from metadata (library title, or the file name outside the library). Changes only in roots marked as writable; moving a library file updates the title version, deleting it removes the version from the title.",
       "author": "Kinovna",
       "homepage": "",
       "permissions": [
         "files.read",
         "files.write",
-        "library.read"
+        "library.read",
+        "network"
       ],
       "versions": [
+        {
+          "version": "1.12.0",
+          "protocol": 1,
+          "notes": "",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/filemanager-v1.12.0/kinovna-plugin-filemanager_1.12.0_linux_x86_64.zip",
+              "sha256": "abce591d075e3dd610ce30a9f68515a0df5b2a20390acb466cab8309c981bd05"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/filemanager-v1.12.0/kinovna-plugin-filemanager_1.12.0_windows_x86_64.zip",
+              "sha256": "a1ffa31690b6f1d92e6ad4df05eacb011bd91fe6f1e5b4661490e9fb96d50b19"
+            }
+          ]
+        },
         {
           "version": "1.11.1",
           "protocol": 1,
@@ -2295,6 +2315,25 @@
         "notifications"
       ],
       "versions": [
+        {
+          "version": "1.2.1",
+          "protocol": 1,
+          "notes": "",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/usenet-v1.2.1/kinovna-plugin-usenet_1.2.1_linux_x86_64.zip",
+              "sha256": "e632cd691567e88725f9a650d62e1944437cecf187254f5bd0453d420155f662"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/usenet-v1.2.1/kinovna-plugin-usenet_1.2.1_windows_x86_64.zip",
+              "sha256": "fca063d9599f34c38f75ec3583071844572c8a36e421fa1b79e3ddf57cb94c1e"
+            }
+          ]
+        },
         {
           "version": "1.2.0",
           "protocol": 1,
