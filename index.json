@@ -569,6 +569,25 @@
       ],
       "versions": [
         {
+          "version": "1.2.0",
+          "protocol": 1,
+          "notes": "Ruční Hotovo – odebrat ze seznamu",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/diskmerge-v1.2.0/kinovna-plugin-diskmerge_1.2.0_linux_x86_64.zip",
+              "sha256": "dafb06c9b9bc7cc70d1e78b16ea55e9004d6df92a98d0c85c8bc4233d5a5df5e"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/diskmerge-v1.2.0/kinovna-plugin-diskmerge_1.2.0_windows_x86_64.zip",
+              "sha256": "55148cbf2a8a6de1cfab9629c72ee67c7903ad54e9054ffea9280cd43ee69631"
+            }
+          ]
+        },
+        {
           "version": "1.1.0",
           "protocol": 1,
           "notes": "Pozůstatky po sloučení jde smazat; složky a soubory jde otevřít v Souborech",
