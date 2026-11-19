@@ -569,6 +569,25 @@
       ],
       "versions": [
         {
+          "version": "1.3.0",
+          "protocol": 1,
+          "notes": "Zdrojová složka bez videí se po sloučení smaže; tlačítko Smazat složku",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/diskmerge-v1.3.0/kinovna-plugin-diskmerge_1.3.0_linux_x86_64.zip",
+              "sha256": "6523ae254ad3fb6f7d31e4c8f1f7ffe39c147c7057f3df066a1c8f849900e57f"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/diskmerge-v1.3.0/kinovna-plugin-diskmerge_1.3.0_windows_x86_64.zip",
+              "sha256": "1488412d89a19ac0a38127a8bfb4aa008863dcbb636280a63a19f407f55ae618"
+            }
+          ]
+        },
+        {
           "version": "1.2.0",
           "protocol": 1,
           "notes": "Ruční Hotovo – odebrat ze seznamu",
