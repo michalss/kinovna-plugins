@@ -557,6 +557,39 @@
       ]
     },
     {
+      "id": "diskmerge",
+      "name": "Disk merge",
+      "description": "Finds series and movies whose files are spread over several storage roots (e.g. some episodes on MEDIA0, others on MEDIA3) and merges each into one folder on one root with a click – one by one or in a batch. Nothing is overwritten: files whose name already exists in the target stay in place and are listed. Library paths follow the moved files automatically.",
+      "author": "Kinovna",
+      "homepage": "",
+      "permissions": [
+        "library.read",
+        "files.read",
+        "files.write"
+      ],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "protocol": 1,
+          "notes": "Nový plugin: sloučení seriálů a filmů rozsekaných na víc disků (po jednom i hromadně)",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/diskmerge-v1.0.0/kinovna-plugin-diskmerge_1.0.0_linux_x86_64.zip",
+              "sha256": "2a0a50cd3c01b7699a10eb2ee712ce1941064af7610c8660031bc6d290bb810c"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/diskmerge-v1.0.0/kinovna-plugin-diskmerge_1.0.0_windows_x86_64.zip",
+              "sha256": "4acff5a0a3ca1083857faf7c882abf9bce2112078f1f4b11e8d49256e40d4f44"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "fastshare",
       "name": "FastShare",
       "description": "Search FastShare.cz and download files into the storage with your FastShare account. Works through the plugin bus: results and downloads appear in the Search plugin.",
