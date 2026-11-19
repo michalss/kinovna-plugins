@@ -15,6 +15,25 @@
       ],
       "versions": [
         {
+          "version": "1.13.1",
+          "protocol": 1,
+          "notes": "TheTVDB: PIN odběratele v nastavení a srozumitelná chyba přihlášení.",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/autopilot-v1.13.1/kinovna-plugin-autopilot_1.13.1_linux_x86_64.zip",
+              "sha256": "65324358432bf3b0dbb29ccef7d7317c7e0dbb7119e89f58e0822c6c285537e2"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/autopilot-v1.13.1/kinovna-plugin-autopilot_1.13.1_windows_x86_64.zip",
+              "sha256": "f400ba77349a2f863e6fd93d21b2cf6170be9edf64d720b25276acd48845cfb9"
+            }
+          ]
+        },
+        {
           "version": "1.13.0",
           "protocol": 1,
           "notes": "",
