@@ -569,6 +569,25 @@
       ],
       "versions": [
         {
+          "version": "1.0.1",
+          "protocol": 1,
+          "notes": "Výsledek hledání se ukládá a přežije restart serveru i aktualizaci pluginu",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/diskmerge-v1.0.1/kinovna-plugin-diskmerge_1.0.1_linux_x86_64.zip",
+              "sha256": "c99315f652523c210353df93ae8c841fec1d61f3c831cade6ed507add5196fff"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/diskmerge-v1.0.1/kinovna-plugin-diskmerge_1.0.1_windows_x86_64.zip",
+              "sha256": "a5474a208d85b24b2ac4e1a6932a2b1d50b0027cdf68a2e02aabb17e958bbe1c"
+            }
+          ]
+        },
+        {
           "version": "1.0.0",
           "protocol": 1,
           "notes": "Nový plugin: sloučení seriálů a filmů rozsekaných na víc disků (po jednom i hromadně)",
