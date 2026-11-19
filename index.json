@@ -603,6 +603,25 @@
       ],
       "versions": [
         {
+          "version": "1.11.1",
+          "protocol": 1,
+          "notes": "Úprava médií: hledání ve výběru souboru (v této složce / ve všech úložištích); Soubory: sdílené hledání",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/filemanager-v1.11.1/kinovna-plugin-filemanager_1.11.1_linux_x86_64.zip",
+              "sha256": "639f938e14d4b92371acd1677057a76129d276a76004495275523500a6aabea5"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/filemanager-v1.11.1/kinovna-plugin-filemanager_1.11.1_windows_x86_64.zip",
+              "sha256": "d4d6e45900ad18b84ee4d89e9463d730c3ba7cbc2f554c36dd1c85a8782921a6"
+            }
+          ]
+        },
+        {
           "version": "1.11.0",
           "protocol": 1,
           "notes": "Smazání souboru z knihovny odebere jeho verzi z titulu (vyžaduje novější server).",
@@ -1307,6 +1326,25 @@
         "network"
       ],
       "versions": [
+        {
+          "version": "1.2.0",
+          "protocol": 1,
+          "notes": "Úprava médií: hledání ve výběru souboru (v této složce / ve všech úložištích); Soubory: sdílené hledání",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/mediaedit-v1.2.0/kinovna-plugin-mediaedit_1.2.0_linux_x86_64.zip",
+              "sha256": "3b3fca82fdcf89edf6a3207b1d413984bcc73bcb73c8a9db74fb2981dca5e434"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/mediaedit-v1.2.0/kinovna-plugin-mediaedit_1.2.0_windows_x86_64.zip",
+              "sha256": "c3e7a85def86fc9ebb680a94b1cea9bad54d71e5b32d892471bde49ca7c15396"
+            }
+          ]
+        },
         {
           "version": "1.1.0",
           "protocol": 1,
