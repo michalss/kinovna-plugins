@@ -1513,6 +1513,25 @@
       ],
       "versions": [
         {
+          "version": "1.3.0",
+          "protocol": 1,
+          "notes": "",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/mediaedit-v1.3.0/kinovna-plugin-mediaedit_1.3.0_linux_x86_64.zip",
+              "sha256": "9317d701cc24e4ebe0d00c0997cad5cee90eb7d716934d1f7b4c75f72a248c6e"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/mediaedit-v1.3.0/kinovna-plugin-mediaedit_1.3.0_windows_x86_64.zip",
+              "sha256": "437f401f8c06e7e4df47fb728427df49fd5ff37e2113f9a55fa99ab9a5c3c40e"
+            }
+          ]
+        },
+        {
           "version": "1.2.1",
           "protocol": 1,
           "notes": "",
