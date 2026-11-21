@@ -588,6 +588,25 @@
       ],
       "versions": [
         {
+          "version": "1.5.0",
+          "protocol": 1,
+          "notes": "Smazání jednotlivého souboru přímo v seznamu",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/diskmerge-v1.5.0/kinovna-plugin-diskmerge_1.5.0_linux_x86_64.zip",
+              "sha256": "6ff3fd66e055c222802b6c31e5c8bbc24aa33dae190af07ce251edc29299901f"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/diskmerge-v1.5.0/kinovna-plugin-diskmerge_1.5.0_windows_x86_64.zip",
+              "sha256": "675bf61912beef45f1ea7583dc412bd357d2dd36b265aea748cab96210c1195f"
+            }
+          ]
+        },
+        {
           "version": "1.4.0",
           "protocol": 1,
           "notes": "",
