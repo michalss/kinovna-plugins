@@ -607,6 +607,25 @@
       ],
       "versions": [
         {
+          "version": "1.6.2",
+          "protocol": 1,
+          "notes": "Starsi ulozene hledani si velikosti souboru doplni samo, Smazat kopie funguje bez noveho hledani.",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/diskmerge-v1.6.2/kinovna-plugin-diskmerge_1.6.2_linux_x86_64.zip",
+              "sha256": "7ec46a930fe4d634292743b5ede6cc82431e5c2e9f43f37da5431e948ee09c04"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/diskmerge-v1.6.2/kinovna-plugin-diskmerge_1.6.2_windows_x86_64.zip",
+              "sha256": "0cbd26dd299c9519ed742f890379b4eda4a8ac3a95aa8b8d4be249fc4bb1951c"
+            }
+          ]
+        },
+        {
           "version": "1.6.1",
           "protocol": 1,
           "notes": "Smazat kopie jen u jasnych pripadu: kazdy soubor mimo cil ma na cili kopii se stejnou velikosti. Po aktualizaci prohledejte knihovnu znovu.",
