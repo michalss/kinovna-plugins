@@ -588,6 +588,25 @@
       ],
       "versions": [
         {
+          "version": "1.6.0",
+          "protocol": 1,
+          "notes": "Hromadne Smazat kopie: u titulu, ktere cele lezi i na cilovem disku, smaze stejne velke kopie na ostatnich discich (overi velikosti). Filtr Jen kopie.",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/diskmerge-v1.6.0/kinovna-plugin-diskmerge_1.6.0_linux_x86_64.zip",
+              "sha256": "81816a15ee99e6bc242be66d2c0bf9615f2ee482d0a5971d797ff88377cd7267"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/diskmerge-v1.6.0/kinovna-plugin-diskmerge_1.6.0_windows_x86_64.zip",
+              "sha256": "3540811238b95a167df5e9076dc2a90593d7d6ff002bb4849fc974e9e3f4a8ce"
+            }
+          ]
+        },
+        {
           "version": "1.5.0",
           "protocol": 1,
           "notes": "Smazání jednotlivého souboru přímo v seznamu",
