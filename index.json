@@ -15,6 +15,25 @@
       ],
       "versions": [
         {
+          "version": "1.15.0",
+          "protocol": 1,
+          "notes": "Odebrání zvukových stop v jiných jazycích (kromě ponechaných a původního jazyka seriálu)",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/autopilot-v1.15.0/kinovna-plugin-autopilot_1.15.0_linux_x86_64.zip",
+              "sha256": "d94ae4806ccf68015a4a76dbfe87bc49a7cbfe046b2ec56a3dea83ae72db1dc4"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/autopilot-v1.15.0/kinovna-plugin-autopilot_1.15.0_windows_x86_64.zip",
+              "sha256": "b95681b95aeebfcc01a685cdc6579398a98b2ab1c26911061f45cc0207808b13"
+            }
+          ]
+        },
+        {
           "version": "1.14.0",
           "protocol": 1,
           "notes": "",
@@ -1541,7 +1560,7 @@
     {
       "id": "mediaedit",
       "name": "Media editor",
-      "description": "Edit tracks of MKV files: rename tracks, change languages and default/forced flags (instantly, without rewriting the file), add subtitles and audio, remove and reorder tracks, extract subtitles; other plugins (Autopilot) can have subtitles in unwanted languages removed through the plugin bus. Uses MKVToolNix, which the plugin can download and install by itself.",
+      "description": "Edit tracks of MKV files: rename tracks, change languages and default/forced flags (instantly, without rewriting the file), add subtitles and audio, remove and reorder tracks, extract subtitles; other plugins (Autopilot) can have subtitle and audio tracks in unwanted languages removed through the plugin bus. Uses MKVToolNix, which the plugin can download and install by itself.",
       "author": "Kinovna",
       "homepage": "https://mkvtoolnix.download",
       "permissions": [
@@ -1550,6 +1569,25 @@
         "network"
       ],
       "versions": [
+        {
+          "version": "1.4.0",
+          "protocol": 1,
+          "notes": "Odebrání zvukových stop v jiných jazycích (kromě ponechaných a původního jazyka seriálu)",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/mediaedit-v1.4.0/kinovna-plugin-mediaedit_1.4.0_linux_x86_64.zip",
+              "sha256": "bc4b48fe6f98e91b33e88416cee8dac93c155109fe3fa8abea1031d0776eee5c"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/mediaedit-v1.4.0/kinovna-plugin-mediaedit_1.4.0_windows_x86_64.zip",
+              "sha256": "18156c316a9e9b00318ccf6b2db28b40b99bd6cfb6e4ce6a9387a9fff85eeceb"
+            }
+          ]
+        },
         {
           "version": "1.3.0",
           "protocol": 1,
