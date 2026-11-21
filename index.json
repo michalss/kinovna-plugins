@@ -1838,6 +1838,25 @@
       ],
       "versions": [
         {
+          "version": "1.6.2",
+          "protocol": 1,
+          "notes": "Stažení z detailu titulu jde do složky titulu (epizoda do složky řady), ne do poslední složky",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/search-v1.6.2/kinovna-plugin-search_1.6.2_linux_x86_64.zip",
+              "sha256": "ea14cef441606f56debbbe966bdb52b28bf5c64e3dd51ccc03f8f5cd5db7feea"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/search-v1.6.2/kinovna-plugin-search_1.6.2_windows_x86_64.zip",
+              "sha256": "023cfa1c6224850593d15105c65084ab67f30f587ddad842ff73d44a187ce58e"
+            }
+          ]
+        },
+        {
           "version": "1.6.1",
           "protocol": 1,
           "notes": "",
