@@ -2096,6 +2096,25 @@
       ],
       "versions": [
         {
+          "version": "1.4.1",
+          "protocol": 1,
+          "notes": "",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/torrent-v1.4.1/kinovna-plugin-torrent_1.4.1_linux_x86_64.zip",
+              "sha256": "97daa77a1c38876648cab3bbaf97a364b1f8f7dbd0aa5d8065ee8e49322b6f4d"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/torrent-v1.4.1/kinovna-plugin-torrent_1.4.1_windows_x86_64.zip",
+              "sha256": "f4e9812456bb2a9c531c87348701c02f6b79198917e54c8b7a8b43ff1dc1ec76"
+            }
+          ]
+        },
+        {
           "version": "1.4.0",
           "protocol": 1,
           "notes": "",
