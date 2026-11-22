@@ -15,6 +15,25 @@
       ],
       "versions": [
         {
+          "version": "1.16.0",
+          "protocol": 1,
+          "notes": "Požadavek na titulky nebo dabing v ponechaných jazycích, ověřený po stažení",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/autopilot-v1.16.0/kinovna-plugin-autopilot_1.16.0_linux_x86_64.zip",
+              "sha256": "dea363e7006f36ddaaf9fa99e5ac5aa31cc38282731a217fc2ff64f5b5b980ad"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/autopilot-v1.16.0/kinovna-plugin-autopilot_1.16.0_windows_x86_64.zip",
+              "sha256": "1f6908d1b8a5ca3d6ddf591bf57a7670239d4c39e5d415f3f5702f3555adb595"
+            }
+          ]
+        },
+        {
           "version": "1.15.0",
           "protocol": 1,
           "notes": "Odebrání zvukových stop v jiných jazycích (kromě ponechaných a původního jazyka seriálu)",
