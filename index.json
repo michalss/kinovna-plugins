@@ -616,7 +616,7 @@
     {
       "id": "diskmerge",
       "name": "Disk merge",
-      "description": "Finds series and movies whose files are spread over several storage roots (e.g. some episodes on MEDIA0, others on MEDIA3) and merges each into one folder on one root with a click – one by one or in a batch. Nothing is overwritten: files whose name already exists in the target stay in place and are listed. Library paths follow the moved files automatically.",
+      "description": "Finds series and movies whose files are spread over several storage roots (e.g. some episodes on MEDIA0, others on MEDIA3) and merges each into one folder on one root with a click – one by one or in a batch. Nothing is overwritten: files whose name already exists in the target stay in place and are listed. Library paths follow the moved files automatically. Metadata of all copies can be compared side by side in a table.",
       "author": "Kinovna",
       "homepage": "",
       "permissions": [
@@ -625,6 +625,25 @@
         "files.write"
       ],
       "versions": [
+        {
+          "version": "1.7.0",
+          "protocol": 1,
+          "notes": "Porovnání metadat všech kopií titulu v tabulce (velikost, rozlišení, HDR, kodek, datový tok, zvuk, titulky), u seriálů po dílech.",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/diskmerge-v1.7.0/kinovna-plugin-diskmerge_1.7.0_linux_x86_64.zip",
+              "sha256": "0ea08ef983386b669e5480d5ed572e453e0d75615c7ea75d17d1833d028021d4"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/diskmerge-v1.7.0/kinovna-plugin-diskmerge_1.7.0_windows_x86_64.zip",
+              "sha256": "07ab6d22482e0fbbf4af5a4821500e8bdf99483b3426045f2a7d0c0389451c8e"
+            }
+          ]
+        },
         {
           "version": "1.6.2",
           "protocol": 1,
