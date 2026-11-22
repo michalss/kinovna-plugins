@@ -854,7 +854,7 @@
     {
       "id": "filemanager",
       "name": "File manager",
-      "description": "Browse storage roots, preview files (text editor, images, media tracks and languages), create folders, rename, move, copy and delete files (also many at once), upload files and folders, extract ZIP, RAR and 7z archives (7-Zip), rename video files to release-style names from metadata (library title, or the file name outside the library). Changes only in roots marked as writable; moving a library file updates the title version, deleting it removes the version from the title.",
+      "description": "Browse storage roots, preview files (text editor, images, media tracks and languages), create folders, rename, move, copy and delete files (also many at once), upload files and folders, extract ZIP, RAR and 7z archives (7-Zip), rename video files by metadata with name templates (release style, Plex/Jellyfin, Sonarr or custom) (library title, or the file name outside the library). Changes only in roots marked as writable; moving a library file updates the title version, deleting it removes the version from the title.",
       "author": "Kinovna",
       "homepage": "",
       "permissions": [
@@ -864,6 +864,25 @@
         "network"
       ],
       "versions": [
+        {
+          "version": "1.13.0",
+          "protocol": 1,
+          "notes": "Šablony názvů pro přejmenování podle metadat: předvolby Release, Plex/Jellyfin, Sonarr nebo vlastní šablona s tokeny a náhledem.",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/filemanager-v1.13.0/kinovna-plugin-filemanager_1.13.0_linux_x86_64.zip",
+              "sha256": "0d1ac6e68b19cda57a74d4db8c42e2e23d9250899fb133f4c53be48a2ffc825c"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/filemanager-v1.13.0/kinovna-plugin-filemanager_1.13.0_windows_x86_64.zip",
+              "sha256": "ab4ed57bc9e74bcb8e8c9e19c157a4356204dcc2e04383fc29477379cf5e10ba"
+            }
+          ]
+        },
         {
           "version": "1.12.1",
           "protocol": 1,
