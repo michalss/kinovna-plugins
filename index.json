@@ -1146,6 +1146,25 @@
       ],
       "versions": [
         {
+          "version": "1.8.8",
+          "protocol": 1,
+          "notes": "Zrušení průběhu smaže i rozkoukanou pozici na Histře",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/histra-v1.8.8/kinovna-plugin-histra_1.8.8_linux_x86_64.zip",
+              "sha256": "32ae8baf9141fc3972b41075eba029208fe2e3b4e1eb44a9cb30eeb3572fa702"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/histra-v1.8.8/kinovna-plugin-histra_1.8.8_windows_x86_64.zip",
+              "sha256": "67f235594678bebc3d21af63e8da08acc9c7678c28a8e5d2cdc3f605dfceb815"
+            }
+          ]
+        },
+        {
           "version": "1.8.7",
           "protocol": 1,
           "notes": "",
