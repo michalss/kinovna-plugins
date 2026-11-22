@@ -626,6 +626,25 @@
       ],
       "versions": [
         {
+          "version": "1.7.1",
+          "protocol": 1,
+          "notes": "Smazání kopie přímo z tabulky porovnání metadat.",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/diskmerge-v1.7.1/kinovna-plugin-diskmerge_1.7.1_linux_x86_64.zip",
+              "sha256": "6cae7a4d39dfb2ac74458dd5e1296789c1daef999d2406e9242c58ebfa631654"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/diskmerge-v1.7.1/kinovna-plugin-diskmerge_1.7.1_windows_x86_64.zip",
+              "sha256": "3fa9eb9cf35ed633046dabe5622c02c89d482b5cf578e0fff1989ad25eebec8a"
+            }
+          ]
+        },
+        {
           "version": "1.7.0",
           "protocol": 1,
           "notes": "Porovnání metadat všech kopií titulu v tabulce (velikost, rozlišení, HDR, kodek, datový tok, zvuk, titulky), u seriálů po dílech.",
