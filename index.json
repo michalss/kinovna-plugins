@@ -1209,6 +1209,40 @@
       ]
     },
     {
+      "id": "fio",
+      "name": "FIO payments",
+      "description": "Subscription paid by bank transfer to an FIO account: payments are downloaded from the FIO API, matched to users by the account they pay from, and extend their access in Kinovna. Users see their access, payment details and a QR payment.",
+      "author": "Kinovna",
+      "homepage": "",
+      "permissions": [
+        "users.read",
+        "users.access",
+        "network",
+        "notifications"
+      ],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "protocol": 1,
+          "notes": "Platby FIO 1.0.0: předplatné placené převodem na účet FIO – párování plateb podle čísla účtu, prodloužení přístupu v Kinovně, stránka Předplatné s QR platbou a správa plateb. Vyžaduje server s přístupem do (users.access).",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/fio-v1.0.0/kinovna-plugin-fio_1.0.0_linux_x86_64.zip",
+              "sha256": "874313fab860b0f3dcb119d974c15499ca5f3d2693ce768ff917e69e46abf021"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/fio-v1.0.0/kinovna-plugin-fio_1.0.0_windows_x86_64.zip",
+              "sha256": "0212df60d8aa2bcedf0b4406654245ca8b95930b2629defd95ad9935a1e60350"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "histra",
       "name": "Histra.net",
       "description": "Track what you watch on histra.net: playback progress, watched titles, watchlist and lists in both directions. Also adds Histra IDs to your library.",
