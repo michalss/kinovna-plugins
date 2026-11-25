@@ -2119,6 +2119,25 @@
       ],
       "versions": [
         {
+          "version": "1.6.3",
+          "protocol": 1,
+          "notes": "Vyhledávání 1.6.3: odkazy fastshare.cloud se v Stáhnout odkazy poznají jako FastShare (#46).",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/search-v1.6.3/kinovna-plugin-search_1.6.3_linux_x86_64.zip",
+              "sha256": "852537b4b9af5cf0fb1e57ad33610f5439f1dfac6ac8d486d6987c080a289deb"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/search-v1.6.3/kinovna-plugin-search_1.6.3_windows_x86_64.zip",
+              "sha256": "b9f1537b7d47c37910fd3e4cf60cb354888c095e68e2cad6626828cf8ed12676"
+            }
+          ]
+        },
+        {
           "version": "1.6.2",
           "protocol": 1,
           "notes": "Stažení z detailu titulu jde do složky titulu (epizoda do složky řady), ne do poslední složky",
