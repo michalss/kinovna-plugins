@@ -888,6 +888,25 @@
       ],
       "versions": [
         {
+          "version": "1.1.0",
+          "protocol": 1,
+          "notes": "FastShare 1.1.0: stahování z fastshare.cloud – přihlášení a přímý odkaz jako oficiální doplněk pro Kodi (#46).",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/fastshare-v1.1.0/kinovna-plugin-fastshare_1.1.0_linux_x86_64.zip",
+              "sha256": "6da7c4e8f593c631bad528d10b7bf7eed653a5431c20355927698492c006d358"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/fastshare-v1.1.0/kinovna-plugin-fastshare_1.1.0_windows_x86_64.zip",
+              "sha256": "e78fb00f7eabd1014b73e7ff183d7d1a0229b9b5e0f309a0c9153b6228490cb5"
+            }
+          ]
+        },
+        {
           "version": "1.0.0",
           "protocol": 1,
           "notes": "FastShare na sběrnici pluginů (hledání, stahování); Webshare: sdílené účty a odkazy",
