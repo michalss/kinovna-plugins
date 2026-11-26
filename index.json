@@ -635,7 +635,7 @@
     {
       "id": "diskmerge",
       "name": "Disk merge",
-      "description": "Finds series and movies whose files are spread over several storage roots (e.g. some episodes on MEDIA0, others on MEDIA3) and merges each into one folder on one root with a click – one by one or in a batch. Nothing is overwritten: files whose name already exists in the target stay in place and are listed. Library paths follow the moved files automatically. Metadata of all copies can be compared side by side in a table.",
+      "description": "Finds series and movies whose files are spread over several storage roots (e.g. some episodes on MEDIA0, others on MEDIA3) and merges each into one folder on one root with a click – one by one or in a batch. Nothing is overwritten: files whose name already exists in the target stay in place and are listed. Library paths follow the moved files automatically. Metadata of all copies can be compared side by side in a table. Admin notes (e.g. what to mux later) can be attached to titles from the comparison or kept on their own Notes page.",
       "author": "Kinovna",
       "homepage": "",
       "permissions": [
@@ -644,6 +644,25 @@
         "files.write"
       ],
       "versions": [
+        {
+          "version": "1.8.0",
+          "protocol": 1,
+          "notes": "Poznámky správce: stránka Poznámky v Administraci a Přidat poznámku v Porovnání metadat (#43)",
+          "platforms": [
+            {
+              "os": "linux",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/diskmerge-v1.8.0/kinovna-plugin-diskmerge_1.8.0_linux_x86_64.zip",
+              "sha256": "24fd05fb3a4ce7da4337cb63651cdc2964fc59d2c2f58baedebbdcb3d2b19961"
+            },
+            {
+              "os": "windows",
+              "arch": "x86_64",
+              "url": "https://github.com/michalss/kinovna-plugins/releases/download/diskmerge-v1.8.0/kinovna-plugin-diskmerge_1.8.0_windows_x86_64.zip",
+              "sha256": "0fd23ce112ddb1c625c7a447857ad76e7ddf15fef443e72ff71a3623c339d1e6"
+            }
+          ]
+        },
         {
           "version": "1.7.1",
           "protocol": 1,
